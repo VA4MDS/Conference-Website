@@ -1,0 +1,12 @@
+[
+  {
+    "id": "1",
+    "title": "Deep Learning Applications in Software Engineering",
+    "description": "This paper presents a comprehensive survey of deep learning applications in software engineering. It covers a wide range of topics, including code analysis, bug detection, and software testing."
+  },
+  {
+    "id": "2",
+    "title": "Automated Bug Detection Using Machine Learning",
+    "description": "This paper presents a novel approach to automated bug detection using machine learning techniques. It demonstrates the effectiveness of the approach through a series of experiments on real-world software projects."
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "id": "1",
+    "title": "Deep Learning Applications in Software Engineering",
+    "conference": "International Conference on Software Engineering (ICSE)",
+    "year": "2024",
+    "doi": "10.1109/ICSE.2024.00055",
+    "citation": "Deep Learning Applications in Software Engineering. International Conference on Software Engineering (ICSE), 2024.",
+    "abstract": "Deep learning has been applied to various software engineering tasks, such as bug detection, code completion, and code review. This paper provides a comprehensive survey of deep learning applications in software engineering, including a discussion of the challenges and opportunities in this area."
+  },
+  {
+    "id": "2",
+    "title": "Automated Bug Detection Using Machine Learning",
+    "conference": "Automated Software Engineering (ASE)",
+    "year": "2023",
+    "doi": "10.1109/ASE.2023.00042",
+    "citation": "Deep Learning Applications in Software Engineering. International Conference on Software Engineering (ICSE), 2024.",
+    "abstract": "Deep learning has been applied to various software engineering tasks, such as bug detection, code completion, and code review. This paper provides a comprehensive survey of deep learning applications in software engineering, including a discussion of the challenges and opportunities in this area."
+  },
+  {
+    "id": "3",
+    "title": "Improving Code Quality through Static Analysis",
+    "conference": "International Conference on Software Maintenance and Evolution",
+    "year": "2023",
+    "doi": "10.1109/ICSME.2023.00038",
+    "citation": "Deep Learning Applications in Software Engineering. International Conference on Software Engineering (ICSE), 2024.",
+    "abstract": "Deep learning has been applied to various software engineering tasks, such as bug detection, code completion, and code review. This paper provides a comprehensive survey of deep learning applications in software engineering, including a discussion of the challenges and opportunities in this area."
+  }
+]
