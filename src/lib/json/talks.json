@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1",
+    "title": "In Proceedings of the 2nd International Conference on Computing Advancements.Dhaka, Bangladesh",
+    "description": "Presented our research paper. A Survey on Personality Prediction"
+  },
+  {
+    "id": "2",
+    "title": "International Conference on Machine Learning, IoT and Big Data (ICMIB-2023).Sarang, India",
+    "description": "Presented our research paper.Prediction of Heart Disease and Heart Failure Using Ensemble Machine Learning"
+  },
+  {
+    "id": "3",
+    "title": "International Conference on Advances in Computing and Data Sciences (ICACDS2023). Kolkata, India",
+    "description": "Presented our research paper.Ensemble Approach to classify Spam SMS from Bengali text."
+  },
+  {
+    "id": "4",
+    "title": "In Proceedings of the International Conference on Machine Intelligence and Emerging Technologies (MIET 2022). Noakhali, Bangladesh",
+    "description": "Presented our research paper.Covid-19 Vaccine Sentiment Detection and Analysis Using Machine Learning Technique and NLP"
+  }
+]

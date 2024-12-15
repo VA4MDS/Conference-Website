@@ -1,3 +1,5 @@
+import ExperienceContent from '@/components/pages/experience/experience-content';
+
 export default function ExperiencePage() {
-  return <div>page</div>;
+  return <ExperienceContent />;
 }
