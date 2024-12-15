@@ -1,0 +1,138 @@
+[
+  {
+    "id": "1",
+    "name": "Language",
+    "skills": [
+      {
+        "id": "1",
+        "name": "English",
+        "level": "Intermediate"
+      },
+      {
+        "id": "2",
+        "name": "Bangla",
+        "level": "Native"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Coding",
+    "skills": [
+      {
+        "id": "1",
+        "name": "Java",
+        "level": "Intermediate"
+      },
+      {
+        "id": "2",
+        "name": "php",
+        "level": "Native"
+      },
+      {
+        "id": "3",
+        "name": "Python",
+        "level": "Intermediate"
+      },
+      {
+        "id": "4",
+        "name": "C",
+        "level": "Intermediate"
+      },
+      {
+        "id": "5",
+        "name": "C++",
+        "level": "Intermediate"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Problem Solving",
+    "skills": [
+      {
+        "id": "1",
+        "name": "MySQL",
+        "level": "Intermediate"
+      },
+      {
+        "id": "2",
+        "name": "ORACLE",
+        "level": "Native"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Web Dev",
+    "skills": [
+      {
+        "id": "1",
+        "name": "Html",
+        "level": "Intermediate"
+      },
+      {
+        "id": "2",
+        "name": "css",
+        "level": "Intermediate"
+      },
+      {
+        "id": "3",
+        "name": "JavaScript",
+        "level": "Intermediate"
+      },
+      {
+        "id": "4",
+        "name": "Apache Web Server",
+        "level": "Intermediate"
+      },
+      {
+        "id": "5",
+        "name": " Tomcat Web Serve",
+        "level": "Intermediate"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Misc",
+    "skills": [
+      {
+        "id": "1",
+        "name": "App development (Android)",
+        "level": "Intermediate"
+      },
+      {
+        "id": "2",
+        "name": "Cypress software Testing.",
+        "level": "Intermediate"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Machine Learning",
+    "skills": [
+      {
+        "id": "1",
+        "name": "Supervised Learning (Regression, Classification), Unsupervised Learning (Clustering), Deep Learning (ANN, CNN, RNN, LSTM, Transfer Learning )",
+        "level": "Intermediate"
+      },
+      {
+        "id": "2",
+        "name": "Ensemble Learning (Bagging, Boosting, Stacking)",
+        "level": "Intermediate"
+      },
+      {
+        "id": "3",
+        "name": "NLP (Data Preprocessing, Word Embeddings, Transformer",
+        "level": "Intermediate"
+      },
+      {
+        "id": "4",
+        "name": " Interpretable Machine Learning (SHAP, LIME, Grad-CAM)",
+        "level": "Intermediate"
+      }
+    ]
+  }
+]

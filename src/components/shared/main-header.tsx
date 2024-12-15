@@ -21,8 +21,8 @@ export default function MainHeader() {
 
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = '/abfullah-al-maruf-cv.pdf';
-    link.download = 'abfullah-al-maruf-cv.pdf';
+    link.href = '/abdullah-al-maruf-cv.pdf';
+    link.download = 'abdullah-al-maruf-cv.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

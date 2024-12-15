@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import '.././globals.css';
 import MainHeader from '@/components/shared/main-header';
+import MainFooter from '@/components/shared/main-footer';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -22,6 +23,7 @@ export default function RootLayout({
           <div className='min-h-screen bg-background px-2'>
             <MainHeader />
             <main className='container mx-auto mt-10'>{children}</main>
+            <MainFooter />
           </div>
         </div>
       </body>
