@@ -9,7 +9,7 @@ import { Button } from '../ui/button';
 const navLinks = [
   { name: 'Home', href: '/' },
   { name: 'Publications', href: '/publications' },
-  { name: 'Research', href: '/research' },
+  // { name: 'Research', href: '/research' },
   { name: 'Experience', href: '/experience' },
   { name: 'Skills', href: '/skills' },
   { name: 'Talks', href: '/talks' },

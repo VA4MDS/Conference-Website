@@ -20,9 +20,11 @@ export default function RootLayout({
     <html lang='en'>
       <body className={inter.className}>
         <div className='container mx-auto'>
-          <div className='min-h-screen bg-background px-2'>
+          <div className='bg-background px-2'>
             <MainHeader />
-            <main className='container mx-auto mt-10'>{children}</main>
+            <main className='min-h-screen container mx-auto mt-10'>
+              {children}
+            </main>
             <MainFooter />
           </div>
         </div>
