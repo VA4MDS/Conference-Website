@@ -1,10 +1,13 @@
 [
+  
   {
     "id": "1",
-    "company": "Business Analytics",
-    "position": "Software Developer",
-    "date": "2019-2020",
-    "description": " It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "location": "Dhaka, Banladesh"
+    "company": "Business Automation Limited",
+    "position": "Software Developer (Java)",
+    "date": "2022-2023",
+    "description": "As a Java developer at Business Automation Limited, I contributed to several services offered by QPro software, such as Dutch Bangla Bank. Additionally, I engaged in projects related to other services provided by QPro (Passport office and DC office token issuer), although the specific details of these projects may vary. My role involved utilizing Java, JavaScript, HTML, jQuery, and other relevant technologies to ensure the successful implementation of these solutions. I have significant experience in API development, particularly for government projects, to build robust and secure communication channels between different systems. Additionally, I served as a backend developer for Gas Monkey, an e-commerce website, where I managed critical functionalities such as product management and order processing. I also led the software testing team using Cypress automation tools to ensure the quality and reliability of our projects, including Gas Monkey. My role provided practical experience in Java frameworks like Spring Boot, enriching my skills and knowledge within the software industry.",
+    "location": "Dhaka, Bangladesh"
   }
+
+
 ]
