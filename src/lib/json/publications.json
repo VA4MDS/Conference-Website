@@ -6,7 +6,8 @@
   "year": "2024",
   "doi": "10.1109/ACCESS.2024.3356357",
   "citation": "Maruf, Abdullah Al; Khanam, Fahima; Haque, Md. Mahmudul; Jiyad, Zakaria Masud; Mridha, M. F.; Aung, Zeyar. doi=10.1109/ACCESS.2024.3356357",
-  "abstract": "Deep learning has been applied to various software engineering tasks, such as bug detection, code completion, and code review. This paper provides a comprehensive survey of deep learning applications in software engineering, including a discussion of the challenges and opportunities in this area."
+  "abstract": "Deep learning has been applied to various software engineering tasks, such as bug detection, code completion, and code review. This paper provides a comprehensive survey of deep learning applications in software engineering, including a discussion of the challenges and opportunities in this area.",
+  "download_paper" ""
 },
 
   {
