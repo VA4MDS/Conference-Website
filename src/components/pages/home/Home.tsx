@@ -7,6 +7,7 @@ import Link from 'next/link';
 import ProfilePreview from './profile-preview';
 import Publications from '@/components/publications';
 import profileInfoData from '@/lib/json/profile-info.json';
+import LatestUpdate from './latest-update';
 
 export default function HomeContent() {
   const infoValues = profileInfoData[0];
@@ -18,6 +19,7 @@ export default function HomeContent() {
 
         <div className='lg:col-span-3'>
           <div className='space-y-8'>
+            <LatestUpdate />
             <div>
               <h2 className='text-3xl font-bold tracking-tight'>About Me</h2>
               <p className='mt-2 text-muted-foreground'>{about_me}</p>
