@@ -1,23 +1,14 @@
 [
   {
-    "id": "1",
-    "title": "Challenges and opportunities of text-based emotion detection: A survey",
-    "conference": "IEEE Access",
-    "year": "2024",
-    "doi": "10.1109/ACCESS.2024.3356357",
-    "citation": "@ARTICLE{10409495,
-  author={Maruf, Abdullah Al and Khanam, Fahima and Haque, Md. Mahmudul and Jiyad, Zakaria Masud and Mridha, M. F. and Aung, Zeyar},
-  journal={IEEE Access}, 
-  title={Challenges and Opportunities of Text-Based Emotion Detection: A Survey}, 
-  year={2024},
-  volume={12},
-  number={},
-  pages={18416-18450},
-  keywords={Emotion recognition;Surveys;Social networking (online);Machine learning;Depression;Feature extraction;Business;Text analysis;Data models;Performance evaluation;Psychology;Text-based emotion detection;datasets;machine learning models;performance metrics;challenges and emerging trends},
-  doi={10.1109/ACCESS.2024.3356357}}
-",
-    "abstract": "Deep learning has been applied to various software engineering tasks, such as bug detection, code completion, and code review. This paper provides a comprehensive survey of deep learning applications in software engineering, including a discussion of the challenges and opportunities in this area."
-  },
+  "id": "1",
+  "title": "Challenges and opportunities of text-based emotion detection: A survey",
+  "conference": "IEEE Access",
+  "year": "2024",
+  "doi": "10.1109/ACCESS.2024.3356357",
+  "citation": "Maruf, Abdullah Al; Khanam, Fahima; Haque, Md. Mahmudul; Jiyad, Zakaria Masud; Mridha, M. F.; Aung, Zeyar. doi=10.1109/ACCESS.2024.3356357",
+  "abstract": "Deep learning has been applied to various software engineering tasks, such as bug detection, code completion, and code review. This paper provides a comprehensive survey of deep learning applications in software engineering, including a discussion of the challenges and opportunities in this area."
+},
+
   {
     "id": "2",
     "title": "Automated Bug Detection Using Machine Learning",
