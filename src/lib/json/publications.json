@@ -1,14 +1,15 @@
 [
-  {
+{
   "id": "1",
   "title": "Challenges and opportunities of text-based emotion detection: A survey",
-  "conference": "IEEE Access",
+  "conference": "IEEE Access, volume: 12, pages: 123-135",
   "year": "2024",
   "doi": "10.1109/ACCESS.2024.3356357",
   "citation": "Maruf, Abdullah Al; Khanam, Fahima; Haque, Md. Mahmudul; Jiyad, Zakaria Masud; Mridha, M. F.; Aung, Zeyar. doi=10.1109/ACCESS.2024.3356357",
-  "abstract": "Deep learning has been applied to various software engineering tasks, such as bug detection, code completion, and code review. This paper provides a comprehensive survey of deep learning applications in software engineering, including a discussion of the challenges and opportunities in this area.",
-  "download_paper" ""
+  "abstract": "Emotion detection has become an intriguing issue for researchers owing to its psychological, social, and commercial significance. People express their feelings directly or indirectly through facial expressions, language, writing, or behavior. An emotion detection tool is a critical and practical way to recognize and categorize moods in various applications. Artificial intelligence (AI) is often used to identify emotions. Machine learning and deep learning algorithms produce high-quality solutions for diagnosing emotional diseases among social media users. Numerous studies and survey articles have been published on emotion detection using textual data. However, most of these studies did not comprehensively address the emerging architectures and performance analyses in emotion detection. This study provides an extensive survey of state-of-the-art systems, techniques, and datasets for textual emotion recognition. Another goal of this study is to emphasize the limitations and provide up-and-coming research directions to fill these gaps in this rapidly evolving field. This survey paper investigated the concepts and performance of different categories of textual emotion detection models, approaches, and methodologies.",
+  "download_paper": "https://ieeexplore.ieee.org/abstract/document/10409495"
 },
+
 
   {
     "id": "2",
