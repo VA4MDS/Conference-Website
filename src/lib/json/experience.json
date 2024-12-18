@@ -14,5 +14,13 @@
     "date": "2023 – Present",
     "description": "As a remote Python instructor for VMS CLASS, I create in-depth coding courses and provide them to students for self-study. I hold feedback meetings where students can ask questions and get assistance to overcome any issues they encounter after reviewing the materials.",
     "location": "Remote, India"
+  },
+  {
+    "id": "3",
+    "company": "Freelance Researcher",
+    "position": "Research Collaborator",
+    "date": "2022 – Continue",
+    "description": "As a freelance researcher, I’ve collaborated on various projects with international professors, gaining invaluable experience in research methodologies and analytical skills. These  partnerships have expanded my academic network and provided exposure to diverse scholarly perspectives.",
+    "location": "Remote"
   }
 ]
