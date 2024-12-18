@@ -88,5 +88,15 @@
     "citation": "Al Maruf, A., Golder, A., Al Numan, A., Haque, M.M., Aung, Z. (2024). Prediction of Heart Disease and Heart Failure Using Ensemble Machine Learning Models. In: Udgata, S.K., Sethi, S., Gao, XZ. (eds) Intelligent Systems. ICMIB 2023. Lecture Notes in Networks and Systems, vol 728. Springer, Singapore.",
     "abstract": "This study employs ensemble machine learning models to predict heart disease and heart failure, enhancing diagnostic accuracy through intelligent systems for healthcare applications.",
     "download_paper": "https://doi.org/10.1007/978-981-99-3932-9_41"
+  },
+  {
+    "id": "10",
+    "title": "Covid-19 Vaccine Sentiment Detection and Analysis Using Machine Learning Technique and NLP",
+    "conference": "Machine Intelligence and Emerging Technologies. MIET 2022. Lecture Notes of the Institute for Computer Sciences, Social Informatics and Telecommunications Engineering, vol 490",
+    "year": "2024 , Publisher : Springer",
+    "doi": "https://doi.org/10.1007/978-3-031-34619-4_32",
+    "citation": "Maruf, A.A., Biplob, M.N.H., Khanam, F. (2023). Covid-19 Vaccine Sentiment Detection and Analysis Using Machine Learning Technique and NLP. In: Satu, M.S., Moni, M.A., Kaiser, M.S., Arefin, M.S. (eds) Machine Intelligence and Emerging Technologies. MIET 2022. Lecture Notes of the Institute for Computer Sciences, Social Informatics and Telecommunications Engineering, vol 490. Springer, Cham.",
+    "abstract": "This paper utilizes machine learning techniques and natural language processing (NLP) to detect and analyze sentiments regarding Covid-19 vaccines, providing insights into public opinion and vaccine acceptance trends.",
+    "download_paper": "https://doi.org/10.1007/978-3-031-34619-4_32"
   }
 ]
