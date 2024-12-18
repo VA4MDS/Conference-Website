@@ -78,5 +78,15 @@
     "citation": "Jiyad, Zakaria Masud; Maruf, Abdullah Al; Haque, Md. Mahmudul; Gupta, Mrityunjoy Sen; Ahad, Abdul; Aung, Zeyar",
     "abstract": "This paper presents a DDoS attack classification methodology leveraging data balancing and hyperparameter tuning. The study utilizes ensemble machine learning combined with explainable AI tools such as SHAP and LIME for feature interpretation in network security.",
     "download_paper": "https://doi.org/10.1109/ICPC2T60072.2024.10475035"
+  },
+    {
+    "id": "9",
+    "title": "Prediction of Heart Disease and Heart Failure Using Ensemble Machine Learning Models",
+    "conference": "Intelligent Systems. ICMIB 2023. Lecture Notes in Networks and Systems, vol 728",
+    "year": "2024 , Publisher : Springer",
+    "doi": "https://doi.org/10.1007/978-981-99-3932-9_41",
+    "citation": "Al Maruf, A., Golder, A., Al Numan, A., Haque, M.M., Aung, Z. (2024). Prediction of Heart Disease and Heart Failure Using Ensemble Machine Learning Models. In: Udgata, S.K., Sethi, S., Gao, XZ. (eds) Intelligent Systems. ICMIB 2023. Lecture Notes in Networks and Systems, vol 728. Springer, Singapore.",
+    "abstract": "This study employs ensemble machine learning models to predict heart disease and heart failure, enhancing diagnostic accuracy through intelligent systems for healthcare applications.",
+    "download_paper": "https://doi.org/10.1007/978-981-99-3932-9_41"
   }
 ]
