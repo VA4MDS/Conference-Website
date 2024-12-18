@@ -129,4 +129,15 @@
     "abstract": "This paper explores elderly activity recognition using deep learning methods based on data collected through sensor-enabled Android apps. The study highlights a hybrid model for activity recognition, improving accuracy through cultural activity insights.",
     "download_paper": "https://doi.org/10.1109/ICPC2T60072.2024.10474756"
   }
+  {
+  "id": "14",
+  "title": "Leveraging the Transfer Learning Techniques with Data Augmentation to Improve Bangladeshi Crop Diseases Diagnosis",
+  "conference": "The 7th International Conference on Data Analytics and Cyber Security (DACS), Accepted",
+  "year": "Publisher : Springer",
+  "doi": "Accepted, not yet available online",
+  "citation": "A. J. Abidin, M. K. Siam, A. Al Maruf, R. A. Rumy, and Z. Aung",
+  "abstract": "This paper focuses on improving the diagnosis of Bangladeshi crop diseases by leveraging transfer learning techniques combined with data augmentation, showcasing its potential in agricultural applications.",
+  "download_paper": ""
+}
+
 ]
