@@ -9,17 +9,16 @@
   "abstract": "Emotion detection has become an intriguing issue for researchers owing to its psychological, social, and commercial significance. People express their feelings directly or indirectly through facial expressions, language, writing, or behavior. An emotion detection tool is a critical and practical way to recognize and categorize moods in various applications. Artificial intelligence (AI) is often used to identify emotions. Machine learning and deep learning algorithms produce high-quality solutions for diagnosing emotional diseases among social media users. Numerous studies and survey articles have been published on emotion detection using textual data. However, most of these studies did not comprehensively address the emerging architectures and performance analyses in emotion detection. This study provides an extensive survey of state-of-the-art systems, techniques, and datasets for textual emotion recognition. Another goal of this study is to emphasize the limitations and provide up-and-coming research directions to fill these gaps in this rapidly evolving field. This survey paper investigated the concepts and performance of different categories of textual emotion detection models, approaches, and methodologies.",
   "download_paper": "https://ieeexplore.ieee.org/abstract/document/10409495"
 },
-
-
-  {
-    "id": "2",
-    "title": "Automated Bug Detection Using Machine Learning",
-    "conference": "Automated Software Engineering (ASE)",
-    "year": "2023",
-    "doi": "10.1109/ASE.2023.00042",
-    "citation": "Deep Learning Applications in Software Engineering. International Conference on Software Engineering (ICSE), 2024.",
-    "abstract": "Emotion detection has become an intriguing issue for researchers owing to its psychological, social, and commercial significance. People express their feelings directly or indirectly through facial expressions, language, writing, or behavior. An emotion detection tool is a critical and practical way to recognize and categorize moods in various applications. Artificial intelligence (AI) is often used to identify emotions. Machine learning and deep learning algorithms produce high-quality solutions for diagnosing emotional diseases among social media users. Numerous studies and survey articles have been published on emotion detection using textual data. However, most of these studies did not comprehensively address the emerging architectures and performance analyses in emotion detection. This study provides an extensive survey of state-of-the-art systems, techniques, and datasets for textual emotion recognition. Another goal of this study is to emphasize the limitations and provide up-and-coming research directions to fill these gaps in this rapidly evolving field. This survey paper investigated the concepts and performance of different categories of textual emotion detection models, approaches, and methodologies."
-  },
+{
+  "id": "2",
+  "title": "Emotion detection from text and sentiment analysis of Ukraine Russia war using machine learning technique",
+  "conference": "International Journal of Advanced Computer Science and Applications (IJACSA), Volume 13, Issue 12, 2022",
+  "doi": "10.14569/IJACSA.2022.01312101",
+  "citation": "Al Maruf, Abdullah and Ziyad, Zakaria Masud and Haque, Md Mahmudul and Khanam, Fahima",
+  "abstract": "Emotion detection has become an intriguing issue for researchers owing to its psychological, social, and commercial significance. People express their feelings directly or indirectly through facial expressions, language, writing, or behavior. An emotion detection tool is a critical and practical way to recognize and categorize moods in various applications. Artificial intelligence (AI) is often used to identify emotions. Machine learning and deep learning algorithms produce high-quality solutions for diagnosing emotional diseases among social media users. Numerous studies and survey articles have been published on emotion detection using textual data. However, most of these studies did not comprehensively address the emerging architectures and performance analyses in emotion detection. This study provides an extensive survey of state-of-the-art systems, techniques, and datasets for textual emotion recognition. Another goal of this study is to emphasize the limitations and provide up-and-coming research directions to fill these gaps in this rapidly evolving field. This survey paper investigated the concepts and performance of different categories of textual emotion detection models, approaches, and methodologies.",
+  "download_paper": "https://ieeexplore.ieee.org/abstract/document/10409495"
+}
+  ,
   {
     "id": "3",
     "title": "Improving Code Quality through Static Analysis",
