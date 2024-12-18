@@ -68,5 +68,15 @@
     "citation": "Sadik, Md Rezwane; Sony, Rayhanul Islam; Prova, Nuzhat Noor Islam; Mahanandi, Y; Maruf, Abdullah Al; Fahim, Sinhad Hossain; Islam, Md.Shariful",
     "abstract": "This paper discusses a computer vision-based approach to Bangla Sign Language recognition using transfer learning, leveraging advanced neural network architectures for improved accuracy and reliability in sign language interpretation.",
     "download_paper": "https://doi.org/10.1109/ICDSIS61070.2024.10594269"
+  },
+  {
+    "id": "8",
+    "title": "DDoS Attack Classification Leveraging Data Balancing and Hyperparameter Tuning Approach Using Ensemble Machine Learning with XAI",
+    "conference": "2024 Third International Conference on Power, Control and Computing Technologies (ICPC2T)",
+     "year": "2024, Publisher: IEEE ",
+    "doi": "10.1109/ICPC2T60072.2024.10475035",
+    "citation": "Jiyad, Zakaria Masud; Maruf, Abdullah Al; Haque, Md. Mahmudul; Gupta, Mrityunjoy Sen; Ahad, Abdul; Aung, Zeyar",
+    "abstract": "This paper presents a DDoS attack classification methodology leveraging data balancing and hyperparameter tuning. The study utilizes ensemble machine learning combined with explainable AI tools such as SHAP and LIME for feature interpretation in network security.",
+    "download_paper": "https://doi.org/10.1109/ICPC2T60072.2024.10475035"
   }
 ]
