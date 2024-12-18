@@ -128,7 +128,7 @@
     "citation": "Haque, Md. Mahmudul; Maruf, Abdullah Al; Obeid, Ali Jalil; Judi, Hawraa Kareem; Bhuiyan, Mahmud Hasan; Aung, Zeyar",
     "abstract": "This paper explores elderly activity recognition using deep learning methods based on data collected through sensor-enabled Android apps. The study highlights a hybrid model for activity recognition, improving accuracy through cultural activity insights.",
     "download_paper": "https://doi.org/10.1109/ICPC2T60072.2024.10474756"
-  }
+  },
   {
   "id": "14",
   "title": "Leveraging the Transfer Learning Techniques with Data Augmentation to Improve Bangladeshi Crop Diseases Diagnosis",
