@@ -158,6 +158,16 @@
     "citation": "A. L. Roy, M. K. Siam, N. Noor, S. Jahan, and A. Al-Maruf",
     "abstract": "This paper explores the use of gene expression data and explainable machine learning techniques for the early detection of type 2 diabetes, highlighting its potential to improve healthcare outcomes.",
     "download_paper": ""
+  },
+  {
+    "id": "17",
+    "title": "Efficient Language Identification of Indian Languages Using MFCCs and Deep Learning Models",
+    "conference": "The 7th International Conference on Data Analytics and Cyber Security (DACS), Accepted",
+   "year": "Publisher :Springer ",
+    "doi": "Accepted, not yet available online",
+    "citation": "A. L. Roy, M. K. Siam, A. Al Maruf, and Z. Aung",
+    "abstract": "This study leverages MFCCs and deep learning models for efficient language identification of Indian languages, contributing to advancements in computational linguistics.",
+    "download_paper": ""
   }
 
 ]
