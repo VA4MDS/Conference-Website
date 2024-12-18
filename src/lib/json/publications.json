@@ -108,5 +108,25 @@
     "citation": "Maruf, A.A., Golder, A., Naser, M.S., Abidin, A.J., Giti, A.A.C., Aung, Z.",
     "abstract": "This study focuses on developing an automatic number plate recognition system for Bangladeshi vehicles using advanced object detection and OCR techniques, contributing to intelligent transportation systems.",
     "download_paper": "https://doi.org/10.1007/978-981-99-9524-0_25"
+  },
+   {
+    "id": "12",
+    "title": "A Survey on Personality Prediction",
+    "conference": "Proceedings of the 2nd International Conference on Computing Advancements",
+    "year": "2022 ,Publisher :ACM ",
+    "doi": "https://doi.org/10.1145/3542954.3543012",
+    "citation": "Al Maruf, Abdullah; Nayem, Md Abdullah-Al; Haque, Md Mahmudul; Jiyad, Zakaria Masud; Rashid, Al Mamun Or; Khanam, Fahima",
+    "abstract": "This paper presents a comprehensive survey on personality prediction techniques, exploring various machine learning approaches and their applications in understanding human behavior.",
+    "download_paper": ""
+  },
+  {
+    "id": "13",
+    "title": "Exploring Elderly Activity Recognition Using Deep Learning Through Sensor-Enabled Android App Data Collection",
+    "conference": "2024 Third International Conference on Power, Control and Computing Technologies (ICPC2T)",
+    "year": "2024 , Publisher :IEEE",
+    "doi": "10.1109/ICPC2T60072.2024.10474756",
+    "citation": "Haque, Md. Mahmudul; Maruf, Abdullah Al; Obeid, Ali Jalil; Judi, Hawraa Kareem; Bhuiyan, Mahmud Hasan; Aung, Zeyar",
+    "abstract": "This paper explores elderly activity recognition using deep learning methods based on data collected through sensor-enabled Android apps. The study highlights a hybrid model for activity recognition, improving accuracy through cultural activity insights.",
+    "download_paper": "https://doi.org/10.1109/ICPC2T60072.2024.10474756"
   }
 ]
