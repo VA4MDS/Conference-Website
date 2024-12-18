@@ -3,7 +3,7 @@
     "id": "1",
     "title": "Challenges and opportunities of text-based emotion detection: A survey",
     "conference": "IEEE Access, volume: 12, pages: 123-135",
-     "year": "Year: 2024 ,Scopus : Q1, Impact factor: 3.4 ,H-index: 242",
+    "year": "Year: 2024 ,Scopus : Q1, Impact factor: 3.4 ,H-index: 242",
     "doi": "10.1109/ACCESS.2024.3356357",
     "citation": "Maruf, Abdullah Al; Khanam, Fahima; Haque, Md. Mahmudul; Jiyad, Zakaria Masud; Mridha, M. F.; Aung, Zeyar.",
     "abstract": "Emotion detection has become an intriguing issue for researchers owing to its psychological, social, and commercial significance. People express their feelings directly or indirectly through facial expressions, language, writing, or behavior. An emotion detection tool is a critical and practical way to recognize and categorize moods in various applications. Artificial intelligence (AI) is often used to identify emotions. Machine learning and deep learning algorithms produce high-quality solutions for diagnosing emotional diseases among social media users. Numerous studies and survey articles have been published on emotion detection using textual data. However, most of these studies did not comprehensively address the emerging architectures and performance analyses in emotion detection. This study provides an extensive survey of state-of-the-art systems, techniques, and datasets for textual emotion recognition. Another goal of this study is to emphasize the limitations and provide up-and-coming research directions to fill these gaps in this rapidly evolving field. This survey paper investigated the concepts and performance of different categories of textual emotion detection models, approaches, and methodologies.",
@@ -33,7 +33,7 @@
     "id": "4",
     "title": "Classification of Freshwater Fish Diseases in Bangladesh Using a Novel Ensemble Deep Learning Model: Enhancing Accuracy and Interpretability",
     "conference": "IEEE Access, Volume 12, Pages 96411-96435",
-      "year": "Year: 2024 ,Scopus : Q1, Impact factor: 3.4 ,H-index: 242",
+    "year": "Year: 2024 ,Scopus : Q1, Impact factor: 3.4 ,H-index: 242",
     "doi": "10.1109/ACCESS.2024.3426041",
     "citation": "Maruf, Abdullah Al; Fahim, Sinhad Hossain; Bashar, Rumaisha; Rumy, Rownuk Ara; Chowdhury, Shaharior Islam; Aung, Zeyar",
     "abstract": "This paper introduces a novel ensemble deep learning model for classifying freshwater fish diseases in Bangladesh. The model enhances accuracy and interpretability using transfer learning techniques and Grad-CAM visualizations, contributing significantly to the aquaculture field.",
@@ -43,7 +43,7 @@
     "id": "5",
     "title": "Ensemble Approach to Classify Spam SMS from Bengali Text",
     "conference": "Advances in Computing and Data Sciences, ICACDS 2023, Communications in Computer and Information Science, vol 1848",
-    "year": "2023" ,Publusher : Springer, Cham.,
+    "year": "2023 ,Publisher : Springer, Cham.",
     "doi": "10.1007/978-3-031-37940-6_36",
     "citation": "Al Maruf, A., Al Numan, A., Haque, M.M., Jidney, T.T., Aung, Z.",
     "abstract": "This paper presents an ensemble-based approach to classify spam SMS messages from Bengali text. The study demonstrates the use of machine learning techniques combined with natural language processing to improve classification accuracy in detecting spam messages, contributing to advancements in text-based classification systems for less-resourced languages.",
@@ -53,10 +53,20 @@
     "id": "6",
     "title": "Enhancing Crop Management: Ensemble Machine Learning for Real-Time Crop Recommendation System from Sensor Data",
     "conference": "2024 International Conference on Smart Systems for Applications in Electrical Sciences (ICSSES), Tumakuru, India",
-    "year": "2024", Publisher: IEEE ,
+    "year": "2024, Publisher: IEEE ",
     "doi": "10.1109/ICSSES62373.2024.10561406",
     "citation": "S. Hossain, N. N. I. Prova, M. R. Sadik and A. A. Maruf",
     "abstract": "This study proposes an ensemble machine learning model for real-time crop recommendation based on sensor data, enhancing crop management in agriculture by utilizing IoT-based systems for temperature, soil, and environmental data.",
     "download_paper": "https://doi.org/10.1109/ICSSES62373.2024.10561406"
+  },
+  {
+    "id": "7",
+    "title": "Computer Vision Based Bangla Sign Language Recognition Using Transfer Learning",
+    "conference": "2024 Second International Conference on Data Science and Information System (ICDSIS)",
+    "year": "2024, Publisher: IEEE ",
+    "doi": "10.1109/ICDSIS61070.2024.10594269",
+    "citation": "Sadik, Md Rezwane; Sony, Rayhanul Islam; Prova, Nuzhat Noor Islam; Mahanandi, Y; Maruf, Abdullah Al; Fahim, Sinhad Hossain; Islam, Md.Shariful",
+    "abstract": "This paper discusses a computer vision-based approach to Bangla Sign Language recognition using transfer learning, leveraging advanced neural network architectures for improved accuracy and reliability in sign language interpretation.",
+    "download_paper": "https://doi.org/10.1109/ICDSIS61070.2024.10594269"
   }
 ]
