@@ -142,7 +142,7 @@
     {
     "id": "15",
     "title": "Predictive Analysis of Bangladeshi Students' Academic Performances Using Ensemble Machine Learning with Explainable AI Technique",
-    "conference": "27th International Conference on Computer and Information Technology (ICCIT), Accepted ,Core  : C",
+    "conference": "27th International Conference on Computer and Information Technology (ICCIT), Accepted ,Confereence Rank : Core  C",
     "year": "Publisher : IEEE",
     "doi": "Accepted, not yet available online",
     "citation": "A. A. Maruf, R. A. Rumey, R. I. Sony, and Z. Aung",
@@ -167,6 +167,16 @@
     "doi": "Accepted, not yet available online",
     "citation": "A. L. Roy, M. K. Siam, A. Al Maruf, and Z. Aung",
     "abstract": "This study leverages MFCCs and deep learning models for efficient language identification of Indian languages, contributing to advancements in computational linguistics.",
+    "download_paper": ""
+  },
+  {
+    "id": "18",
+    "title": "A Novel Weighted Ensemble Strategy Using Transfer Learning for Enhanced Cervical Cancer Classification",
+    "conference": "The 3rd International Conference on Computing Advancements (ICCA), Accepted",
+    "year": "Publisher :ACM ",
+    "doi": "Accepted, not yet available online",
+    "citation": "S. Sahajuddin, A.-A. Ahmed, A. Al Maruf, and F. Khanam",
+    "abstract": "This study proposes a novel weighted ensemble strategy incorporating transfer learning to improve cervical cancer classification accuracy, showcasing advancements in medical AI applications.",
     "download_paper": ""
   }
 
