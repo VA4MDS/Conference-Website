@@ -95,8 +95,18 @@
     "conference": "Machine Intelligence and Emerging Technologies. MIET 2022. Lecture Notes of the Institute for Computer Sciences, Social Informatics and Telecommunications Engineering, vol 490",
     "year": "2024 , Publisher : Springer",
     "doi": "https://doi.org/10.1007/978-3-031-34619-4_32",
-    "citation": "Maruf, A.A., Biplob, M.N.H., Khanam, F. (2023). Covid-19 Vaccine Sentiment Detection and Analysis Using Machine Learning Technique and NLP. In: Satu, M.S., Moni, M.A., Kaiser, M.S., Arefin, M.S. (eds) Machine Intelligence and Emerging Technologies. MIET 2022. Lecture Notes of the Institute for Computer Sciences, Social Informatics and Telecommunications Engineering, vol 490. Springer, Cham.",
+    "citation": "Maruf, A.A., Biplob, M.N.H., Khanam, F. (2023).",
     "abstract": "This paper utilizes machine learning techniques and natural language processing (NLP) to detect and analyze sentiments regarding Covid-19 vaccines, providing insights into public opinion and vaccine acceptance trends.",
     "download_paper": "https://doi.org/10.1007/978-3-031-34619-4_32"
+  },
+  {
+    "id": "11",
+    "title": "Development of Automatic Number Plate Recognition System of Bangladeshi Vehicle Using Object Detection and OCR",
+    "conference": "Advances in Data-Driven Computing and Intelligent Systems. ADCIS 2023. Lecture Notes in Networks and Systems, vol 891",
+    "year": "2024 , Publisher : Springer",
+    "doi": "https://doi.org/10.1007/978-981-99-9524-0_25",
+    "citation": "Maruf, A.A., Golder, A., Naser, M.S., Abidin, A.J., Giti, A.A.C., Aung, Z.",
+    "abstract": "This study focuses on developing an automatic number plate recognition system for Bangladeshi vehicles using advanced object detection and OCR techniques, contributing to intelligent transportation systems.",
+    "download_paper": "https://doi.org/10.1007/978-981-99-9524-0_25"
   }
 ]
