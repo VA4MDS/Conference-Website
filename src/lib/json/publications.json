@@ -42,11 +42,21 @@
   {
     "id": "5",
     "title": "Ensemble Approach to Classify Spam SMS from Bengali Text",
-    "conference": "Advances in Computing and Data Sciences, ICACDS 2023, Communications in Computer and Information Science, vol 1848, Springer, Cham.",
-    "year": "2023",
+    "conference": "Advances in Computing and Data Sciences, ICACDS 2023, Communications in Computer and Information Science, vol 1848",
+    "year": "2023" ,Publusher : Springer, Cham.,
     "doi": "10.1007/978-3-031-37940-6_36",
     "citation": "Al Maruf, A., Al Numan, A., Haque, M.M., Jidney, T.T., Aung, Z.",
     "abstract": "This paper presents an ensemble-based approach to classify spam SMS messages from Bengali text. The study demonstrates the use of machine learning techniques combined with natural language processing to improve classification accuracy in detecting spam messages, contributing to advancements in text-based classification systems for less-resourced languages.",
     "download_paper": "https://doi.org/10.1007/978-3-031-37940-6_36"
+  },
+  {
+    "id": "6",
+    "title": "Enhancing Crop Management: Ensemble Machine Learning for Real-Time Crop Recommendation System from Sensor Data",
+    "conference": "2024 International Conference on Smart Systems for Applications in Electrical Sciences (ICSSES), Tumakuru, India",
+    "year": "2024", Publisher: IEEE ,
+    "doi": "10.1109/ICSSES62373.2024.10561406",
+    "citation": "S. Hossain, N. N. I. Prova, M. R. Sadik and A. A. Maruf",
+    "abstract": "This study proposes an ensemble machine learning model for real-time crop recommendation based on sensor data, enhancing crop management in agriculture by utilizing IoT-based systems for temperature, soil, and environmental data.",
+    "download_paper": "https://doi.org/10.1109/ICSSES62373.2024.10561406"
   }
 ]
