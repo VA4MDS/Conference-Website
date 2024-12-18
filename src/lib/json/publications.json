@@ -3,7 +3,7 @@
   "id": "1",
   "title": "Challenges and opportunities of text-based emotion detection: A survey",
   "conference": "IEEE Access, volume: 12, pages: 123-135",
-  "year": "Year: 2024 ,Scopus : Q1",
+  "year": "Year: 2024 ,Scopus : Q1, Impact factor: 3.4 ,H-index: 242",
   "doi": "10.1109/ACCESS.2024.3356357",
   "citation": "Maruf, Abdullah Al; Khanam, Fahima; Haque, Md. Mahmudul; Jiyad, Zakaria Masud; Mridha, M. F.; Aung, Zeyar.",
   "abstract": "Emotion detection has become an intriguing issue for researchers owing to its psychological, social, and commercial significance. People express their feelings directly or indirectly through facial expressions, language, writing, or behavior. An emotion detection tool is a critical and practical way to recognize and categorize moods in various applications. Artificial intelligence (AI) is often used to identify emotions. Machine learning and deep learning algorithms produce high-quality solutions for diagnosing emotional diseases among social media users. Numerous studies and survey articles have been published on emotion detection using textual data. However, most of these studies did not comprehensively address the emerging architectures and performance analyses in emotion detection. This study provides an extensive survey of state-of-the-art systems, techniques, and datasets for textual emotion recognition. Another goal of this study is to emphasize the limitations and provide up-and-coming research directions to fill these gaps in this rapidly evolving field. This survey paper investigated the concepts and performance of different categories of textual emotion detection models, approaches, and methodologies.",
@@ -13,6 +13,7 @@
   "id": "2",
   "title": "Emotion detection from text and sentiment analysis of Ukraine Russia war using machine learning technique",
   "conference": "International Journal of Advanced Computer Science and Applications (IJACSA), Volume 13, Issue 12, 2022",
+  "year": "Year: 2022 ,Scopus: Q3 , Impact factor: 0.7  ,H-index: 47",
   "doi": "10.14569/IJACSA.2022.01312101",
   "citation": "Al Maruf, Abdullah and Ziyad, Zakaria Masud and Haque, Md Mahmudul and Khanam, Fahima",
   "abstract": "Emotion detection has become an intriguing issue for researchers owing to its psychological, social, and commercial significance. People express their feelings directly or indirectly through facial expressions, language, writing, or behavior. An emotion detection tool is a critical and practical way to recognize and categorize moods in various applications. Artificial intelligence (AI) is often used to identify emotions. Machine learning and deep learning algorithms produce high-quality solutions for diagnosing emotional diseases among social media users. Numerous studies and survey articles have been published on emotion detection using textual data. However, most of these studies did not comprehensively address the emerging architectures and performance analyses in emotion detection. This study provides an extensive survey of state-of-the-art systems, techniques, and datasets for textual emotion recognition. Another goal of this study is to emphasize the limitations and provide up-and-coming research directions to fill these gaps in this rapidly evolving field. This survey paper investigated the concepts and performance of different categories of textual emotion detection models, approaches, and methodologies.",
@@ -20,12 +21,13 @@
 }
   ,
   {
-    "id": "3",
-    "title": "Improving Code Quality through Static Analysis",
-    "conference": "International Conference on Software Maintenance and Evolution",
-    "year": "2023",
-    "doi": "10.1109/ICSME.2023.00038",
-    "citation": "Deep Learning Applications in Software Engineering. International Conference on Software Engineering (ICSE), 2024.",
-    "abstract": "Deep learning has been applied to various software engineering tasks, such as bug detection, code completion, and code review. This paper provides a comprehensive survey of deep learning applications in software engineering, including a discussion of the challenges and opportunities in this area."
-  }
+ "id": "3",
+  "title": "Ensemble Approach to Classify Spam SMS from Bengali Text",
+  "conference": "Advances in Computing and Data Sciences, ICACDS 2023, Communications in Computer and Information Science, vol 1848, Springer, Cham."
+  "year": "Year: 2023",
+  "doi": "10.1007/978-3-031-37940-6_36",
+  "citation": "Al Maruf, A., Al Numan, A., Haque, M.M., Jidney, T.T., Aung, Z.",
+  "abstract": "This paper presents an ensemble-based approach to classify spam SMS messages from Bengali text. The study demonstrates the use of machine learning techniques combined with natural language processing to improve classification accuracy in detecting spam messages, contributing to advancements in text-based classification systems for less-resourced languages.",
+  "download_paper": "https://doi.org/10.1007/978-3-031-37940-6_36"
+}
 ]
