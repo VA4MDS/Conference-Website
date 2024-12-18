@@ -18,5 +18,35 @@
     "id": "4",
     "title": "In Proceedings of the International Conference on Machine Intelligence and Emerging Technologies (MIET 2022). Noakhali, Bangladesh",
     "description": "Presented our research paper.Covid-19 Vaccine Sentiment Detection and Analysis Using Machine Learning Technique and NLP"
+  },
+  {
+    "id": "5",
+    "title": "In Proceedings of the 27th International Conference on Computer and Information Technology (ICCIT)",
+    "description": "Presented our research paper: Analysis of factors affecting Bangladeshi students’ academic performances and their predictions using machine learning with explainable AI techniques.",
+    "place": "Cox’s Bazar, Bangladesh"
+  },
+  {
+    "id": "6",
+    "title": "In Proceedings of the 3rd International Conference on Computing Advancements (ICCA)",
+    "description": "Presented our research paper: A novel weighted ensemble strategy using transfer learning for enhanced cervical cancer classification.",
+    "place": "Dhaka, Bangladesh, American International University-Bangladesh (AIUB)"
+  },
+   {
+    "id": "7",
+    "title": "In Proceedings of the 7th International Conference on Data Analytics and Cyber Security (DACS)",
+    "description": "Presented our research paper: Efficient language identification of Indian languages using MFCCs and deep learning models.",
+    "place": "Bihar, India"
+  },
+   {
+    "id": "8",
+    "title": "In Proceedings of the 2024 Second International Conference on Data Science and Information System (ICDSIS)",
+    "description": "Presented our research paper: Computer vision based Bangla sign language recognition using transfer learning.",
+    "place": "Virtual"
+  },
+   {
+    "id": "9",
+    "title": "In Proceedings of the International Conference on Advances in Data-driven Computing and Intelligent Systems",
+    "description": "Presented our research paper: Development of automatic number plate recognition system of Bangladeshi vehicle using object detection and OCR.",
+    "place": "Virtual"
   }
 ]
