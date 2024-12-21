@@ -10,6 +10,7 @@ type PaperType = {
   year: string;
   doi: string;
   citation: string;
+  download_paper: string;
 };
 
 type PaperProps = {
@@ -17,7 +18,7 @@ type PaperProps = {
 };
 
 export default function PublicationCard({ paper }: PaperProps) {
-  const { title, conference, year, doi, citation, id } = paper;
+  const { title, conference, year, doi, citation, id, download_paper } = paper;
   return (
     <Card className='overflow-hidden transition-colors hover:bg-muted/50'>
       <div className='p-6'>
@@ -42,10 +43,18 @@ export default function PublicationCard({ paper }: PaperProps) {
           </p>
         </div>
         <div className='mt-4 flex flex-wrap gap-4 items-center'>
-          <Button variant='outline' size='sm'>
-            <Download className='mr-2 h-4 w-4' />
-            Download Paper
-          </Button>
+          {download_paper && (
+            <Link href={download_paper} target='_blank'>
+              <Button
+                variant='outline'
+                size='sm'
+                className='text-blue-700 underline'
+              >
+                <Download className='mr-2 h-4 w-4 ' />
+                Download Paper
+              </Button>
+            </Link>
+          )}
           <p className='text-sm text-muted-foreground'>DOI: {doi}</p>
         </div>
       </div>

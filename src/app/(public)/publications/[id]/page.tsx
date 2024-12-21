@@ -1,6 +1,7 @@
 import { Button } from '@/components/ui/button';
 import publicationsData from '@/lib/json/publications.json';
 import { Download } from 'lucide-react';
+import Link from 'next/link';
 
 type SinglePublicationProps = {
   params: {
@@ -26,11 +27,21 @@ export default function SinglePublication({ params }: SinglePublicationProps) {
         {publication?.citation}
       </p>
       <p>{publication?.abstract}</p>
+
       <div className='mt-4 flex flex-wrap gap-4 items-center'>
-        <Button variant='outline' size='sm'>
-          <Download className='mr-2 h-4 w-4' />
-          Download Paper
-        </Button>
+        {publication?.download_paper && (
+          <Link href={publication?.download_paper || ''} target='_blank'>
+            <Button
+              variant='outline'
+              size='sm'
+              className='text-blue-700 underline'
+            >
+              <Download className='mr-2 h-4 w-4' />
+              Download Paper
+            </Button>
+          </Link>
+        )}
+
         <p className='text-sm text-muted-foreground'>DOI: {publication?.doi}</p>
       </div>
     </div>

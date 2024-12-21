@@ -5,13 +5,13 @@ export default function LatestUpdate() {
     <div className='space-y-3'>
       <h2 className='text-3xl font-bold tracking-tight'>Latest Update</h2>
       <div>
-        {latestUpdateData.map((update, index) => (
-          <ul key={index} className='space-y-4 list-disc list-inside'>
-            <li className='text-lg font-medium text-gray-600'>
+        <ul className='space-y-2 list-disc ml-6'>
+          {latestUpdateData.map((update, index) => (
+            <li key={index} className=' text-gray-600'>
               {update.title}
             </li>
-          </ul>
-        ))}
+          ))}
+        </ul>
       </div>
     </div>
   );

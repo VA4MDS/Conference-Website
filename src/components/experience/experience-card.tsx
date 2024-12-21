@@ -24,7 +24,9 @@ export default function ExperienceCard({ experience }: ExperienceCardProps) {
           <p className='mt-2 text-sm text-muted-foreground'>{location}</p>
         </div>
         <p className='mt-2 text-sm'>Duration: {date}</p>
-        <p className='mt-2 text-sm text-muted-foreground'>{description}</p>
+        <p className='mt-2 text-sm text-muted-foreground text-justify'>
+          {description}
+        </p>
       </div>
     </Card>
   );
