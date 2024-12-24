@@ -17,7 +17,7 @@
     "doi": "10.14569/IJACSA.2022.01312101",
     "citation": "Al Maruf, Abdullah and Ziyad, Zakaria Masud and Haque, Md Mahmudul and Khanam, Fahima",
     "abstract": "Emotion detection has become an intriguing issue for researchers owing to its psychological, social, and commercial significance. People express their feelings directly or indirectly through facial expressions, language, writing, or behavior. An emotion detection tool is a critical and practical way to recognize and categorize moods in various applications. Artificial intelligence (AI) is often used to identify emotions. Machine learning and deep learning algorithms produce high-quality solutions for diagnosing emotional diseases among social media users. Numerous studies and survey articles have been published on emotion detection using textual data. However, most of these studies did not comprehensively address the emerging architectures and performance analyses in emotion detection. This study provides an extensive survey of state-of-the-art systems, techniques, and datasets for textual emotion recognition. Another goal of this study is to emphasize the limitations and provide up-and-coming research directions to fill these gaps in this rapidly evolving field. This survey paper investigated the concepts and performance of different categories of textual emotion detection models, approaches, and methodologies.",
-    "download_paper": "https://ieeexplore.ieee.org/abstract/document/10409495"
+    "download_paper": "https://thesai.org/Publications/ViewPaper?Volume=13&Issue=12&Code=IJACSA&SerialNo=101"
   },
   {
     "id": "3",
