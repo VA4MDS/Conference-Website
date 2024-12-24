@@ -1,14 +1,12 @@
-[
-  {
-    "name": "Abdullah Al Maruf",
-    "designation": "Software Developer",
-    "university": "University of Dhaka",
-    "department": "Department of Computer Science and Engineering",
-    "location": "Dhaka, Bangladesh",
-    "degree": "B.Sc. in Computer Science and Engineering",
-    "email": "marufbubt822@gmail.com",
-    "phone": "+8801623034415",
-    "about_me": "I am a Python instructor and research mentor working remotely in India, specializing in Machine Learning, Deep Learning, Natural Language Processing, and Image Processing. My research interests include advancing solutions in computer vision, natural language processing, and low-resource language processing. Previously, I worked as a Java developer at Business Automation Limited. Guided by the motto, 'Education and research pave the way for innovation,' I aim to bridge theory with real-world applications in AI and software development.",
-    "research_interest": "I am interested in techniques that make computer systems more autonomous, efficient, reliable, and user-friendly. In my current research works, I used Data Mining, Natural Language Processing, Knowledge Discovery, Information Retrieval, and Program Analysis to make the concurrent software systems autonomous."
-  }
-]
+{
+  "name": "Abdullah Al Maruf",
+  "designation": "Software Developer",
+  "university": "Bangladesh University of Business and Technology (BUBT)",
+  "department": "Department of Computer Science and Engineering",
+  "location": "Dhaka, Bangladesh",
+  "degree": "B.Sc. in Computer Science and Engineering",
+  "email": "marufbubt822@gmail.com",
+  "phone": "+8801623034415",
+  "about_me": "I am a Python instructor and research mentor working remotely in India, specializing in Machine Learning, Deep Learning, Natural Language Processing, and Image Processing. Previously, I worked as a Java developer at Business Automation Limited. Guided by the motto, 'Education and research pave the way for innovation,' I aim to bridge theory with real-world applications in AI and software development.",
+  "research_interest": "My research interests focus on Machine Learning and Deep Learning applications in healthcare, including medical image analysis for disease detection, such as classification and object detection, Natural Language Processing for large language models and generative AI applications, and Explainable Artificial Intelligence (XAI) for enhancing trust in AI systems. Additionally, I explore cybersecurity, cognitive AI, and applications of AI in low-resource settings to develop efficient and autonomous systems."
+}
