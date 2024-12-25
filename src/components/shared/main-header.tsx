@@ -13,6 +13,7 @@ const navLinks = [
   { name: 'Experience', href: '/experience' },
   { name: 'Skills', href: '/skills' },
   { name: 'Talks', href: '/talks' },
+  { name: 'Projects', href: '/projects' },
   // { name: 'CV', href: '/abfullah-al-maruf-cv.pdf' },
 ];
 

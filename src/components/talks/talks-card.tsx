@@ -17,7 +17,7 @@ export default function TalksCard({ talk }: TalkProps) {
         <h1 className='font-semibold tracking-tight hover:text-primary'>
           {title}
         </h1>
-        <p>{description}</p>
+        <p className='text-sm text-muted-foreground'>{description}</p>
       </div>
     </Card>
   );
