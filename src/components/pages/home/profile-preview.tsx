@@ -11,11 +11,11 @@ export default function ProfilePreview() {
     infoValues;
   return (
     <aside className='w-full flex flex-col gap-6 lg:sticky top-24 h-fit'>
-      <div className='relative aspect-square overflow-hidden rounded-xl shadow-lg border'>
+      <div className='relative aspect-square overflow-hidden rounded-xl'>
         <Image
           src='/images/abdullah-al-maruf.webp'
           alt='Profile picture'
-          className='object-cover object-top '
+          className='object-cover'
           fill
           priority
         />
