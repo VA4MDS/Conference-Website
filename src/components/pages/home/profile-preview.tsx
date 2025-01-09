@@ -15,7 +15,7 @@ export default function ProfilePreview() {
         <Image
           src='/images/abdullah-al-maruf.webp'
           alt='Profile picture'
-          className='object-cover'
+          className='object-cover object-top'
           fill
           priority
         />
