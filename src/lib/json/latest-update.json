@@ -1,20 +1,9 @@
 [
   {
     "id": "1",
-    "title": "Published a research paper on AI Ethics.",
-    "description": "This paper explores the ethical implications of artificial intelligence in modern applications.",
-    "image": "https://via.placeholder.com/150"
-  },
-  {
-    "id": "2",
-    "title": "Attended the International Conference on Computing.",
-    "description": "Presented our research on sentiment analysis using NLP techniques.",
-    "image": "https://via.placeholder.com/150"
-  },
-  {
-    "id": "3",
-    "title": "",
-    "description": "",
+    "title": "Intelligent Agriculture System",
+    "description": "This system involves an IoT device that collects environmental data and captures images every 3-4 days. The images are sent to a website, where they are analyzed using an AI model to classify plant diseases. The IoT device includes sensors for data collection and a camera to take high-quality images of plants. The collected data is processed on the backend, and the AI model identifies diseases from the images, providing actionable insights for farmers to manage and prevent crop issues effectively.",
     "image": ""
   }
 ]
+
