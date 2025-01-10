@@ -1,20 +1,20 @@
 [
   {
     "id": "1",
-    "title": "Project 1",
-    "description": "This is project 1",
-    "github": "https://github.com"
+    "title": "TransembleNet: Enhancing Species and Vector Mosquito Classification through Transfer Learning Base Ensemble Model",
+    "description": "Problem Statement: Current mosquito vector classification methods struggle with accuracy, computational cost, and imbalanced datasets. Aim: To enhance classification accuracy in imbalanced datasets using an optimized ensemble model. Methodology: Developed an ensemble model combining InceptionV3, ResNet-50, and VGG-16 with transfer learning. The approach utilized fine-tuning and robust augmentation techniques to address class imbalance and reduce computational complexity.",
+    "github": "https://github.com/abdullahamruf/Mosquito"
   },
   {
     "id": "2",
-    "title": "Project 2",
-    "description": "This is project 2",
-    "github": "https://github.com"
+    "title": "Multi-label Emotion and Sentiment Detection from Bengali Text Using Hybrid Deep Learning Model",
+    "description": "Problem Statement: Limited datasets and accurate models hinder multi-label emotion and sentiment detection in Bengali. Aim: To develop an annotated dataset and a hybrid deep-learning model combining CNN, LSTM, and BERT embeddings. Methodology: Created a dataset of 40,911 Bengali posts with high annotation quality (Cohen’s Kappa = 0.85). Employed CNN for local pattern recognition, LSTM for temporal dependencies, and BERT embeddings for feature extraction.",
+    "github": "https://drive.google.com/file/d/1P7iQLBS5_Ry872Z_u4ijXxAwg23gy4mh/view?usp=drive_link"
   },
   {
     "id": "3",
-    "title": "Project 3",
-    "description": "This is project 3",
-    "github": "https://github.com"
+    "title": "Emotion Detection from Text and Sentiment Analysis of Ukraine Russia War Using Machine Learning Technique",
+    "description": "",
+    "github": "https://github.com/abdullahamruf/capstone-project"
   }
 ]

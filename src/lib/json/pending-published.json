@@ -1,12 +1,34 @@
 [
   {
     "id": "1",
-    "title": "The first post",
-    "description": "This is the first post"
+    "title": "TransembleNet: Enhancing Species and Vector Mosquito Classification through Transfer Learning Base Ensemble Model",
+    "journal": "PLOS ONE ,Scopus : Q1",
+    "status": "Under Review",
+    "revisionPhase": "Third Revision",
+    "authorPosition": "First Author"
   },
   {
     "id": "2",
-    "title": "The first post1212",
-    "description": "This is the first post 23"
+    "title": "EmoBang: Detecting Emotion From Bengali Texts",
+    "journal": "SN Computer Science , Scopus:Q1",
+    "status": "Under Review",
+    "revisionPhase": "First Revision",
+    "authorPosition": "Second Author"
+  },
+  {
+    "id": "3",
+    "title": "Fostering Trust and Interpretability in Skin Cancer Classification: A Hybrid Framework of Deep Learning and Machine Learning with Explainable AI",
+    "journal": "Heliyon ,Scopus : Q1",
+    "status": "Under Review",
+    "revisionPhase": "First Revision",
+    "authorPosition": "First Author"
+  },
+  {
+    "id": "4",
+    "title": "Multi-label Emotion and Sentiment Detection from Bengali Text Using Hybrid Deep Learning Model",
+    "journal": "Computer Speech & Language , Scopus: Q1",
+    "status": "Under Review",
+    "revisionPhase": "Initial Review",
+    "authorPosition": "Third Author"
   }
 ]

@@ -13,7 +13,7 @@ export default async function Publications() {
         ))}
       </div>
       <h2 className='text-3xl font-bold tracking-tight'>
-        Pending Publications
+        Publications Under Review
       </h2>
       <div className='grid grid-cols-1 lg:grid-cols-2 gap-6'>
         {PendingPublicationData.map((paper, index) => (

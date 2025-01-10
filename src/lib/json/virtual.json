@@ -1,0 +1,44 @@
+[
+    {
+      "id": "1",
+      "title": "In Proceedings of the 2nd International Conference on Computing Advancements.Dhaka, Bangladesh",
+      "description": "Presented our research paper. A Survey on Personality Prediction"
+    },
+    {
+      "id": "2",
+      "title": "International Conference on Machine Learning, IoT and Big Data (ICMIB-2023).Sarang, India",
+      "description": "Presented our research paper.Prediction of Heart Disease and Heart Failure Using Ensemble Machine Learning"
+    },
+    {
+      "id": "3",
+      "title": "International Conference on Advances in Computing and Data Sciences (ICACDS2023). Kolkata, India",
+      "description": "Presented our research paper.Ensemble Approach to classify Spam SMS from Bengali text."
+    },
+    {
+      "id": "8",
+      "title": "In Proceedings of the 2024 Second International Conference on Data Science and Information System (ICDSIS)",
+      "description": "Presented our research paper: Computer vision based Bangla sign language recognition using transfer learning."
+    },
+    {
+      "id": "9",
+      "title": "In Proceedings of the International Conference on Advances in Data-driven Computing and Intelligent Systems",
+      "description": "Presented our research paper: Development of automatic number plate recognition system of Bangladeshi vehicle using object detection and OCR."
+    },
+    {
+      "id": "10",
+      "title": "In Proceedings of the 2024 International Conference on Smart Systems for Applications in Electrical Sciences (ICSSES)",
+      "description": "Presented our research paper: Enhancing crop management: Ensemble machine learning for real-time crop recommendation system from sensor data."
+    },
+    {
+      "id": "11",
+      "title": "In Proceedings of the 2024 Third International Conference on Power, Control and Computing Technologies (ICPC2T)",
+      "description": "Presented our research paper: Exploring elderly activity recognition using deep learning through sensor-enabled android app data collection."
+    },
+    {
+        "id": "12",
+        "title": "In Proceedings of the 7th International Conference on Data Analytics and Cyber Security (DACS)",
+        "description": "Presented our research paper: Efficient language identification of Indian languages using MFCCs and deep learning models.",
+        "place": "Bihar, India"
+      }
+  ]
+  

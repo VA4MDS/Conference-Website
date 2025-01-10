@@ -5,7 +5,8 @@
     "position": "Software Developer (Java)",
     "date": "2022-2023",
     "description": "As a Java developer at Business Automation Limited, I contributed to several services offered by QPro software, such as Dutch Bangla Bank. Additionally, I engaged in projects related to other services provided by QPro (Passport office and DC office token issuer), although the specific details of these projects may vary. My role involved utilizing Java, JavaScript, HTML, jQuery, and other relevant technologies to ensure the successful implementation of these solutions. I have significant experience in API development, particularly for government projects, to build robust and secure communication channels between different systems. Additionally, I served as a backend developer for Gas Monkey, an e-commerce website, where I managed critical functionalities such as product management and order processing. I also led the software testing team using Cypress automation tools to ensure the quality and reliability of our projects, including Gas Monkey. My role provided practical experience in Java frameworks like Spring Boot, enriching my skills and knowledge within the software industry.",
-    "location": "Dhaka, Bangladesh"
+    "location": "Dhaka, Bangladesh",
+    "website": "https://ba-systems.com/"
   },
   {
     "id": "2",
@@ -13,14 +14,16 @@
     "position": "Python Instructor",
     "date": "2023 – Present",
     "description": "As a remote Python instructor for VMS CLASS, I create in-depth coding courses and provide them to students for self-study. I hold feedback meetings where students can ask questions and get assistance to overcome any issues they encounter after reviewing the materials.",
-    "location": "Remote, India"
+    "location": "Remote, India",
+    "website": "https://www.vmsclass.com/"
   },
   {
     "id": "3",
     "company": "Freelance Researcher",
     "position": "Research Collaborator",
     "date": "2022 – Continue",
-    "description": "As a freelance researcher, I’ve collaborated on various projects with international professors, gaining invaluable experience in research methodologies and analytical skills. These  partnerships have expanded my academic network and provided exposure to diverse scholarly perspectives.",
-    "location": "Remote"
+    "description": "As a freelance researcher, I’ve collaborated on various projects with international professors, gaining invaluable experience in research methodologies and analytical skills. These partnerships have expanded my academic network and provided exposure to diverse scholarly perspectives.",
+    "location": "Remote",
+    "website": ""
   }
 ]
