@@ -23,5 +23,14 @@
     "status": "Under Review",
     "revisionPhase": "Initial Review",
     "authorPosition": "Third Author"
-  }
+  },
+  {
+  "id": "4",
+  "title": "Multi-label Emotion and Sentiment Detection from Bengali Text Using Hybrid Deep Learning Model",
+  "journal": "Computer Speech & Language, Scopus: Q1",
+  "status": "Under Review",
+  "revisionPhase": "Initial Review",
+  "authorPosition": "Fifth Author"
+}
+
 ]
