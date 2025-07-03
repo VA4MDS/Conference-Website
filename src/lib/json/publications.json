@@ -21,17 +21,17 @@
     "download_paper": "https://thesai.org/Publications/ViewPaper?Volume=13&Issue=12&Code=IJACSA&SerialNo=101",
     "type": "journal"
   },
-  {
-    "id": "3",
-    "title": "Hate speech detection in the Bengali language: a comprehensive survey",
-    "conference": "J Big Data 11, 97 , Scopus : Q1, Impact factor: 12.60, H-index: 76",
-    "year": " Year : 2024",
-    "doi": "https://doi.org/10.1186/s40537-024-00956-z",
-    "citation": "Al Maruf, A., Abidin, A.J., Haque, M.M. et al. Hate speech detection in the Bengali language: a comprehensive survey. J Big Data 11, 97 (2024).",
-    "abstract": "This study provides a comprehensive survey on hate speech detection in the Bengali language. It explores current methodologies, challenges, and datasets, offering insights into the progress and limitations of hate speech analysis in this underrepresented language domain.",
-    "download_paper": "https://doi.org/10.1186/s40537-024-00956-z",
-    "type": "journal"
-  },
+{
+  "id": "3",
+  "title": "Hate speech detection in the Bengali language: a comprehensive survey",
+  "conference": "J Big Data 11, 97 , Scopus : Q1, Impact factor: 12.60, H-index: 76",
+  "year": " Year : 2024",
+  "doi": "https://doi.org/10.1186/s40537-024-00956-z",
+  "citation": "Al Maruf, A., Abidin, A.J., Haque, M.M. et al. Hate speech detection in the Bengali language: a comprehensive survey. J Big Data 11, 97 (2024).",
+  "abstract": "This study provides a comprehensive survey on hate speech detection in the Bengali language. It explores current methodologies, challenges, and datasets, offering insights into the progress and limitations of hate speech analysis in this underrepresented language domain.",
+  "download_paper": "https://doi.org/10.1186/s40537-024-00956-z",
+  "type": "journal"
+},
   {
     "id": "4",
     "title": "Classification of Freshwater Fish Diseases in Bangladesh Using a Novel Ensemble Deep Learning Model: Enhancing Accuracy and Interpretability",
