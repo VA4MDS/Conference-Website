@@ -7,8 +7,9 @@ type PaperType = {
   id: string;
   title: string;
   conference: string;
-  type: 'journal' | 'conference';  // Added type field
+  type: 'journal' | 'conference';
   year: string;
+  impact_info?: string;   // New optional field
   doi: string;
   citation: string;
   download_paper: string;
@@ -19,7 +20,7 @@ type PaperProps = {
 };
 
 export default function PublicationCard({ paper }: PaperProps) {
-  const { title, conference, year, doi, citation, download_paper, type } = paper;
+  const { title, conference, year, impact_info, doi, citation, download_paper, type } = paper;
 
   const highlightKeywords = (text: string) =>
     text
@@ -41,7 +42,7 @@ export default function PublicationCard({ paper }: PaperProps) {
           dangerouslySetInnerHTML={{ __html: highlightKeywords(title) }}
         ></h3>
 
-        {/* Paper type + venue + year */}
+        {/* Paper type + venue + year + impact_info */}
         <div className="space-y-2 mt-2">
           <p className="text-sm text-muted-foreground">
             <strong className="text-blue-700 mr-1">
@@ -49,7 +50,9 @@ export default function PublicationCard({ paper }: PaperProps) {
             </strong>
             <span
               dangerouslySetInnerHTML={{
-                __html: `Published in ${highlightKeywords(conference)}, ${highlightKeywords(year)}`,
+                __html: `Published in ${highlightKeywords(conference)}, ${highlightKeywords(year)}${
+                  impact_info ? ', ' + highlightKeywords(impact_info) : ''
+                }`,
               }}
             />
           </p>
