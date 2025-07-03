@@ -1,5 +1,3 @@
-'use client';
-
 import Link from 'next/link';
 import { Card } from '../ui/card';
 import { Download } from 'lucide-react';
@@ -11,7 +9,6 @@ type PaperType = {
   conference: string;
   type: 'journal' | 'conference';
   year: string;
-  impact_info?: string;   // New optional field
   doi: string;
   citation: string;
   download_paper: string;
@@ -22,7 +19,7 @@ type PaperProps = {
 };
 
 export default function PublicationCard({ paper }: PaperProps) {
-  const { title, conference, year, impact_info, doi, citation, download_paper, type } = paper;
+  const { title, conference, year, doi, citation, download_paper, type } = paper;
 
   const highlightKeywords = (text: string) =>
     text
@@ -31,20 +28,17 @@ export default function PublicationCard({ paper }: PaperProps) {
         `<strong>$1</strong>`
       )
       .replace(/(Scopus\s*:\s*Q[1-3])/gi, `<strong class="text-green-600">$1</strong>`)
-      .replace(/(Confereence\s*Rank\s*:\s*(Core\s+)?[ABC])/gi, `<strong class="text-green-600">$1</strong>`)
+      .replace(/(Conference\s*Rank\s*:\s*(Core\s+)?[ABC])/gi, `<strong class="text-green-600">$1</strong>`)
       .replace(/(Impact factor\s*:\s*\d+(\.\d+)?)/gi, `<strong class="text-green-600">$1</strong>`)
       .replace(/(H-index\s*:\s*\d+)/gi, `<strong class="text-green-600">$1</strong>`);
 
   return (
     <Card className="overflow-hidden transition-colors hover:bg-muted/50">
       <div className="p-6">
-        {/* Title */}
         <h3
           className="font-semibold tracking-tight hover:text-primary"
           dangerouslySetInnerHTML={{ __html: highlightKeywords(title) }}
-        ></h3>
-
-        {/* Paper type + venue + year + impact_info */}
+        />
         <div className="space-y-2 mt-2">
           <p className="text-sm text-muted-foreground">
             <strong className="text-blue-700 mr-1">
@@ -52,14 +46,10 @@ export default function PublicationCard({ paper }: PaperProps) {
             </strong>
             <span
               dangerouslySetInnerHTML={{
-                __html: `Published in ${highlightKeywords(conference)}, ${highlightKeywords(year)}${
-                  impact_info ? ', ' + highlightKeywords(impact_info) : ''
-                }`,
+                __html: `Published in ${highlightKeywords(conference)}, ${highlightKeywords(year)}`,
               }}
             />
           </p>
-
-          {/* Citation */}
           <p
             className="text-gray-600"
             dangerouslySetInnerHTML={{
@@ -67,10 +57,8 @@ export default function PublicationCard({ paper }: PaperProps) {
                 citation
               )}`,
             }}
-          ></p>
+          />
         </div>
-
-        {/* Download & DOI */}
         <div className="mt-4 flex flex-wrap gap-4 items-center">
           {download_paper && download_paper !== 'Not yet' && (
             <Link href={download_paper} target="_blank" rel="noopener noreferrer">
@@ -80,12 +68,11 @@ export default function PublicationCard({ paper }: PaperProps) {
               </Button>
             </Link>
           )}
-
           {doi && doi !== 'Not available' && (
             <p
               className="text-sm text-blue-600"
               dangerouslySetInnerHTML={{ __html: `DOI: ${highlightKeywords(doi)}` }}
-            ></p>
+            />
           )}
         </div>
       </div>
