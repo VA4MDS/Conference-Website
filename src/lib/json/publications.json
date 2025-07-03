@@ -7,7 +7,8 @@
     "doi": "10.1109/ACCESS.2024.3356357",
     "citation": "Maruf, Abdullah Al; Khanam, Fahima; Haque, Md. Mahmudul; Jiyad, Zakaria Masud; Mridha, M. F.; Aung, Zeyar.",
     "abstract": "Emotion detection has become an intriguing issue for researchers owing to its psychological, social, and commercial significance. People express their feelings directly or indirectly through facial expressions, language, writing, or behavior. An emotion detection tool is a critical and practical way to recognize and categorize moods in various applications. Artificial intelligence (AI) is often used to identify emotions. Machine learning and deep learning algorithms produce high-quality solutions for diagnosing emotional diseases among social media users. Numerous studies and survey articles have been published on emotion detection using textual data. However, most of these studies did not comprehensively address the emerging architectures and performance analyses in emotion detection. This study provides an extensive survey of state-of-the-art systems, techniques, and datasets for textual emotion recognition. Another goal of this study is to emphasize the limitations and provide up-and-coming research directions to fill these gaps in this rapidly evolving field. This survey paper investigated the concepts and performance of different categories of textual emotion detection models, approaches, and methodologies.",
-    "download_paper": "https://ieeexplore.ieee.org/abstract/document/10409495"
+    "download_paper": "https://ieeexplore.ieee.org/abstract/document/10409495",
+    "type": "journal"
   },
   {
     "id": "2",
@@ -17,7 +18,8 @@
     "doi": "10.14569/IJACSA.2022.01312101",
     "citation": "Al Maruf, Abdullah and Ziyad, Zakaria Masud and Haque, Md Mahmudul and Khanam, Fahima",
     "abstract": "Emotion detection has become an intriguing issue for researchers owing to its psychological, social, and commercial significance. People express their feelings directly or indirectly through facial expressions, language, writing, or behavior. An emotion detection tool is a critical and practical way to recognize and categorize moods in various applications. Artificial intelligence (AI) is often used to identify emotions. Machine learning and deep learning algorithms produce high-quality solutions for diagnosing emotional diseases among social media users. Numerous studies and survey articles have been published on emotion detection using textual data. However, most of these studies did not comprehensively address the emerging architectures and performance analyses in emotion detection. This study provides an extensive survey of state-of-the-art systems, techniques, and datasets for textual emotion recognition. Another goal of this study is to emphasize the limitations and provide up-and-coming research directions to fill these gaps in this rapidly evolving field. This survey paper investigated the concepts and performance of different categories of textual emotion detection models, approaches, and methodologies.",
-    "download_paper": "https://thesai.org/Publications/ViewPaper?Volume=13&Issue=12&Code=IJACSA&SerialNo=101"
+    "download_paper": "https://thesai.org/Publications/ViewPaper?Volume=13&Issue=12&Code=IJACSA&SerialNo=101",
+    "type": "journal"
   },
   {
     "id": "3",
@@ -27,7 +29,8 @@
     "doi": "https://doi.org/10.1186/s40537-024-00956-z",
     "citation": "Al Maruf, A., Abidin, A.J., Haque, M.M. et al. Hate speech detection in the Bengali language: a comprehensive survey. J Big Data 11, 97 (2024).",
     "abstract": "This study provides a comprehensive survey on hate speech detection in the Bengali language. It explores current methodologies, challenges, and datasets, offering insights into the progress and limitations of hate speech analysis in this underrepresented language domain.",
-    "download_paper": "https://doi.org/10.1186/s40537-024-00956-z"
+    "download_paper": "https://doi.org/10.1186/s40537-024-00956-z",
+    "type": "journal"
   },
   {
     "id": "4",
@@ -37,7 +40,8 @@
     "doi": "10.1109/ACCESS.2024.3426041",
     "citation": "Maruf, Abdullah Al; Fahim, Sinhad Hossain; Bashar, Rumaisha; Rumy, Rownuk Ara; Chowdhury, Shaharior Islam; Aung, Zeyar",
     "abstract": "This paper introduces a novel ensemble deep learning model for classifying freshwater fish diseases in Bangladesh. The model enhances accuracy and interpretability using transfer learning techniques and Grad-CAM visualizations, contributing significantly to the aquaculture field.",
-    "download_paper": "https://doi.org/10.1109/ACCESS.2024.3426041"
+    "download_paper": "https://doi.org/10.1109/ACCESS.2024.3426041",
+    "type": "journal"
   },
   {
     "id": "5",
@@ -47,7 +51,8 @@
     "doi": "10.1007/978-3-031-37940-6_36",
     "citation": "Al Maruf, A., Al Numan, A., Haque, M.M., Jidney, T.T., Aung, Z.",
     "abstract": "This paper presents an ensemble-based approach to classify spam SMS messages from Bengali text. The study demonstrates the use of machine learning techniques combined with natural language processing to improve classification accuracy in detecting spam messages, contributing to advancements in text-based classification systems for less-resourced languages.",
-    "download_paper": "https://doi.org/10.1007/978-3-031-37940-6_36"
+    "download_paper": "https://doi.org/10.1007/978-3-031-37940-6_36",
+    "type": "conference"
   },
   {
     "id": "6",
@@ -57,7 +62,8 @@
     "doi": "10.1109/ICSSES62373.2024.10561406",
     "citation": "S. Hossain, N. N. I. Prova, M. R. Sadik and A. A. Maruf",
     "abstract": "This study proposes an ensemble machine learning model for real-time crop recommendation based on sensor data, enhancing crop management in agriculture by utilizing IoT-based systems for temperature, soil, and environmental data.",
-    "download_paper": "https://doi.org/10.1109/ICSSES62373.2024.10561406"
+    "download_paper": "https://doi.org/10.1109/ICSSES62373.2024.10561406",
+    "type": "conference"
   },
   {
     "id": "7",
@@ -67,19 +73,21 @@
     "doi": "10.1109/ICDSIS61070.2024.10594269",
     "citation": "Sadik, Md Rezwane; Sony, Rayhanul Islam; Prova, Nuzhat Noor Islam; Mahanandi, Y; Maruf, Abdullah Al; Fahim, Sinhad Hossain; Islam, Md.Shariful",
     "abstract": "This paper discusses a computer vision-based approach to Bangla Sign Language recognition using transfer learning, leveraging advanced neural network architectures for improved accuracy and reliability in sign language interpretation.",
-    "download_paper": "https://doi.org/10.1109/ICDSIS61070.2024.10594269"
+    "download_paper": "https://doi.org/10.1109/ICDSIS61070.2024.10594269",
+    "type": "conference"
   },
   {
     "id": "8",
     "title": "DDoS Attack Classification Leveraging Data Balancing and Hyperparameter Tuning Approach Using Ensemble Machine Learning with XAI",
     "conference": "2024 Third International Conference on Power, Control and Computing Technologies (ICPC2T)",
-     "year": "2024, Publisher: IEEE ",
+    "year": "2024, Publisher: IEEE ",
     "doi": "10.1109/ICPC2T60072.2024.10475035",
     "citation": "Jiyad, Zakaria Masud; Maruf, Abdullah Al; Haque, Md. Mahmudul; Gupta, Mrityunjoy Sen; Ahad, Abdul; Aung, Zeyar",
     "abstract": "This paper presents a DDoS attack classification methodology leveraging data balancing and hyperparameter tuning. The study utilizes ensemble machine learning combined with explainable AI tools such as SHAP and LIME for feature interpretation in network security.",
-    "download_paper": "https://doi.org/10.1109/ICPC2T60072.2024.10475035"
+    "download_paper": "https://doi.org/10.1109/ICPC2T60072.2024.10475035",
+    "type": "conference"
   },
-    {
+  {
     "id": "9",
     "title": "Prediction of Heart Disease and Heart Failure Using Ensemble Machine Learning Models",
     "conference": "Intelligent Systems. ICMIB 2023. Lecture Notes in Networks and Systems, vol 728",
@@ -87,7 +95,8 @@
     "doi": "https://doi.org/10.1007/978-981-99-3932-9_41",
     "citation": "Al Maruf, A., Golder, A., Al Numan, A., Haque, M.M., Aung, Z. (2024). Prediction of Heart Disease and Heart Failure Using Ensemble Machine Learning Models. In: Udgata, S.K., Sethi, S., Gao, XZ. (eds) Intelligent Systems. ICMIB 2023. Lecture Notes in Networks and Systems, vol 728. Springer, Singapore.",
     "abstract": "This study employs ensemble machine learning models to predict heart disease and heart failure, enhancing diagnostic accuracy through intelligent systems for healthcare applications.",
-    "download_paper": "https://doi.org/10.1007/978-981-99-3932-9_41"
+    "download_paper": "https://doi.org/10.1007/978-981-99-3932-9_41",
+    "type": "conference"
   },
   {
     "id": "10",
@@ -97,7 +106,8 @@
     "doi": "https://doi.org/10.1007/978-3-031-34619-4_32",
     "citation": "Maruf, A.A., Biplob, M.N.H., Khanam, F. (2023).",
     "abstract": "This paper utilizes machine learning techniques and natural language processing (NLP) to detect and analyze sentiments regarding Covid-19 vaccines, providing insights into public opinion and vaccine acceptance trends.",
-    "download_paper": "https://doi.org/10.1007/978-3-031-34619-4_32"
+    "download_paper": "https://doi.org/10.1007/978-3-031-34619-4_32",
+    "type": "conference"
   },
   {
     "id": "11",
@@ -105,11 +115,12 @@
     "conference": "Advances in Data-Driven Computing and Intelligent Systems. ADCIS 2023. Lecture Notes in Networks and Systems, vol 891",
     "year": "2024 , Publisher : Springer",
     "doi": "https://doi.org/10.1007/978-981-99-9524-0_25",
-    "citation": "Maruf, A.A., Golder, A., Naser, M.S., Abidin, A.J., Giti, A.A.C., Aung, Z.",
+    "citation": "Maruf, A.A., Golder, A., Naser, M.S., Abidin, A.J., Giti, A.A.C., Aung, Zeyar",
     "abstract": "This study focuses on developing an automatic number plate recognition system for Bangladeshi vehicles using advanced object detection and OCR techniques, contributing to intelligent transportation systems.",
-    "download_paper": "https://doi.org/10.1007/978-981-99-9524-0_25"
+    "download_paper": "https://doi.org/10.1007/978-981-99-9524-0_25",
+    "type": "conference"
   },
-   {
+  {
     "id": "12",
     "title": "A Survey on Personality Prediction",
     "conference": "Proceedings of the 2nd International Conference on Computing Advancements",
@@ -117,7 +128,8 @@
     "doi": "https://doi.org/10.1145/3542954.3543012",
     "citation": "Al Maruf, Abdullah; Nayem, Md Abdullah-Al; Haque, Md Mahmudul; Jiyad, Zakaria Masud; Rashid, Al Mamun Or; Khanam, Fahima",
     "abstract": "This paper presents a comprehensive survey on personality prediction techniques, exploring various machine learning approaches and their applications in understanding human behavior.",
-    "download_paper": "https://doi.org/10.1145/3542954.3543012"
+    "download_paper": "https://doi.org/10.1145/3542954.3543012",
+    "type": "conference"
   },
   {
     "id": "13",
@@ -127,19 +139,21 @@
     "doi": "10.1109/ICPC2T60072.2024.10474756",
     "citation": "Haque, Md. Mahmudul; Maruf, Abdullah Al; Obeid, Ali Jalil; Judi, Hawraa Kareem; Bhuiyan, Mahmud Hasan; Aung, Zeyar",
     "abstract": "This paper explores elderly activity recognition using deep learning methods based on data collected through sensor-enabled Android apps. The study highlights a hybrid model for activity recognition, improving accuracy through cultural activity insights.",
-    "download_paper": "https://doi.org/10.1109/ICPC2T60072.2024.10474756"
+    "download_paper": "https://doi.org/10.1109/ICPC2T60072.2024.10474756",
+    "type": "conference"
   },
   {
-  "id": "14",
-  "title": "Leveraging the Transfer Learning Techniques with Data Augmentation to Improve Bangladeshi Crop Diseases Diagnosis",
-  "conference": "The 7th International Conference on Data Analytics and Cyber Security (DACS), Accepted",
-  "year": "Publisher : Springer",
-  "doi": "Accepted, not yet available online",
-  "citation": "A. J. Abidin, M. K. Siam, A. Al Maruf, R. A. Rumy, and Z. Aung",
-  "abstract": "This paper focuses on improving the diagnosis of Bangladeshi crop diseases by leveraging transfer learning techniques combined with data augmentation, showcasing its potential in agricultural applications.",
-  "download_paper": ""
-},
-    {
+    "id": "14",
+    "title": "Leveraging the Transfer Learning Techniques with Data Augmentation to Improve Bangladeshi Crop Diseases Diagnosis",
+    "conference": "The 7th International Conference on Data Analytics and Cyber Security (DACS), Accepted",
+    "year": "Publisher : Springer",
+    "doi": "Accepted, not yet available online",
+    "citation": "A. J. Abidin, M. K. Siam, A. Al Maruf, R. A. Rumy, and Z. Aung",
+    "abstract": "This paper focuses on improving the diagnosis of Bangladeshi crop diseases by leveraging transfer learning techniques combined with data augmentation, showcasing its potential in agricultural applications.",
+    "download_paper": "",
+    "type": "conference"
+  },
+  {
     "id": "15",
     "title": "Predictive Analysis of Bangladeshi Students' Academic Performances Using Ensemble Machine Learning with Explainable AI Technique",
     "conference": "27th International Conference on Computer and Information Technology (ICCIT), Accepted ,Confereence Rank : Core  C",
@@ -147,9 +161,10 @@
     "doi": "10.1109/ICCIT64611.2024.11021990",
     "citation": "A. A. Maruf, R. A. Rumey, R. I. Sony, and Z. Aung",
     "abstract": "This paper analyzes factors influencing Bangladeshi students' academic performances using machine learning and explainable AI techniques, offering insights into data-driven educational improvements.",
-    "download_paper": "https://ieeexplore.ieee.org/abstract/document/11021990"
+    "download_paper": "https://ieeexplore.ieee.org/abstract/document/11021990",
+    "type": "conference"
   },
-   {
+  {
     "id": "16",
     "title": "Leveraging Gene Expression Data and Explainable Machine Learning for Enhanced Early Detection of Type 2 Diabetes",
     "conference": "The 3rd International Conference on Computing Advancements (ICCA), Accepted",
@@ -157,17 +172,19 @@
     "doi": "https://doi.org/10.1145/3723178.3723228",
     "citation": "A. L. Roy, M. K. Siam, N. Noor, S. Jahan, and A. Al.Maruf",
     "abstract": "This paper explores the use of gene expression data and explainable machine learning techniques for the early detection of type 2 diabetes, highlighting its potential to improve healthcare outcomes.",
-    "download_paper": "https://dl.acm.org/doi/full/10.1145/3723178.3723228"
+    "download_paper": "https://dl.acm.org/doi/full/10.1145/3723178.3723228",
+    "type": "conference"
   },
   {
     "id": "17",
     "title": "Efficient Language Identification of Indian Languages Using MFCCs and Deep Learning Models",
     "conference": "The 7th International Conference on Data Analytics and Cyber Security (DACS), Accepted",
-   "year": "Publisher :Springer ",
+    "year": "Publisher :Springer ",
     "doi": "Accepted, not yet available online",
     "citation": "A. L. Roy, M. K. Siam, A. Al Maruf, and Z. Aung",
     "abstract": "This study leverages MFCCs and deep learning models for efficient language identification of Indian languages, contributing to advancements in computational linguistics.",
-    "download_paper": ""
+    "download_paper": "",
+    "type": "conference"
   },
   {
     "id": "18",
@@ -177,9 +194,10 @@
     "doi": "https://doi.org/10.1145/3723178.3723187",
     "citation": "S. Sahajuddin, A.-A. Ahmed, A. Al Maruf, and F. Khanam",
     "abstract": "This study proposes a novel weighted ensemble strategy incorporating transfer learning to improve cervical cancer classification accuracy, showcasing advancements in medical AI applications.",
-    "download_paper": "https://dl.acm.org/doi/full/10.1145/3723178.3723187"
+    "download_paper": "https://dl.acm.org/doi/full/10.1145/3723178.3723187",
+    "type": "conference"
   },
-    {
+  {
     "id": "19",
     "title": "TransembleNet: Enhancing Species and Vector Mosquito Classification through Transfer Learning Base Ensemble Model",
     "conference": "PLOS ONE",
@@ -187,18 +205,18 @@
     "doi": "https://doi.org/10.1371/journal.pone.0322171",
     "citation": "Al Maruf, Abdullah and Mahmudul Haque, Md and Ara Rumy, Rownuk and Jahan Puspo, Jasmin and Aung, Zeyar",
     "abstract": "no yet",
-    "download_paper": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0322171"
+    "download_paper": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0322171",
+    "type": "journal"
   },
   {
-  "id": "20",
-  "title": "Fostering trust and interpretability in skin cancer classification: a hybrid framework of deep learning and machine learning with explainable AI",
-  "conference": "Journal of Ambient Intelligence and Humanized Computing",
-  "year": "Year: 2025 ,Scopus : Q1, Impact factor: 7.104 ,H-index: 86",
-  "doi": "https://doi.org/10.1007/s12652-025-04984-2",
-  "citation": "Roy, Aurora Lithe and Al Maruf, Abdullah and Sony, Rayhanul Islam and Roy, Arghya Pranto and Prova, Nuzhat Noor Islam and Aung, Zeyar",
-  "abstract": "no yet",
-  "download_paper": "https://link.springer.com/article/10.1007/s12652-025-04984-2"
-}
-
-
+    "id": "20",
+    "title": "Fostering trust and interpretability in skin cancer classification: a hybrid framework of deep learning and machine learning with explainable AI",
+    "conference": "Journal of Ambient Intelligence and Humanized Computing",
+    "year": "Year: 2025 ,Scopus : Q1, Impact factor: 7.104 ,H-index: 86",
+    "doi": "https://doi.org/10.1007/s12652-025-04984-2",
+    "citation": "Roy, Aurora Lithe and Al Maruf, Abdullah and Sony, Rayhanul Islam and Roy, Arghya Pranto and Prova, Nuzhat Noor Islam and Aung, Zeyar",
+    "abstract": "no yet",
+    "download_paper": "https://link.springer.com/article/10.1007/s12652-025-04984-2",
+    "type": "journal"
+  }
 ]
