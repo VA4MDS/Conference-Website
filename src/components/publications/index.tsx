@@ -1,23 +1,29 @@
+
 import PublicationCard from './publication-card';
 import publicationsData from '@/lib/json/publications.json';
 import PendingPublicationData from '@/lib/json/pending-published.json';
 import PendingPublicationCard from './pending-publication-card';
 
 export default function Publications() {
-  // Extract year (e.g. from "Year: 2025 ,Scopus : Q1, Impact factor: 2.9 ,H-index: 435")
+  // Extract 4-digit year from the "year" string
   const extractYear = (entry: any) => {
-    const match = entry.year.match(/\d{4}/);
+    const match = entry.year.trim().match(/\d{4}/);
     return match ? parseInt(match[0]) : 0;
   };
 
-  // Filter & sort by paper type
+  // Filter & sort journals
   const journalPapers = publicationsData
     .filter((paper) => paper.type === 'journal')
     .sort((a, b) => extractYear(b) - extractYear(a));
 
+  // Filter & sort conferences
   const conferencePapers = publicationsData
     .filter((paper) => paper.type === 'conference')
     .sort((a, b) => extractYear(b) - extractYear(a));
+
+  // DEBUGGING - optional
+  console.log('🟦 Journals:', journalPapers.map((p) => p.title));
+  console.log('🟨 Conferences:', conferencePapers.map((p) => p.title));
 
   return (
     <div className="space-y-10">
