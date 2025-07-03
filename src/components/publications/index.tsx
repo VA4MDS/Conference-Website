@@ -1,39 +1,48 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
-import publicationsData from '@/lib/json/publications.json';
-import PendingPublicationData from '@/lib/json/pending-published.json';
+import { useState } from "react";
+import publicationsData from "@/lib/json/publications.json";
+import PendingPublicationData from "@/lib/json/pending-published.json";
+import PublicationCard from "../publication"; // Adjust import path as needed
 
 export default function Publications() {
-  // Extract 4-digit year from the "year" string
   const extractYear = (entry: any) => {
-    const match = entry.year?.trim().match(/\d{4}/);
-    return match ? parseInt(match[0]) : 0;
+    if (!entry.year) return 0;
+    const match = entry.year.match(/\b(19|20)\d{2}\b/);
+    if (match) return parseInt(match[0]);
+    return 0;
   };
 
-  // Sort toggles
   const [journalAsc, setJournalAsc] = useState(false);
   const [conferenceAsc, setConferenceAsc] = useState(false);
 
-  // Sorted journal papers
-  const sortedJournals = [...publicationsData]
-    .filter((paper) => paper.type === 'journal')
+  const journalsWithYear = publicationsData
+    .filter((paper) => paper.type === "journal" && extractYear(paper) > 0)
     .sort((a, b) =>
       journalAsc ? extractYear(a) - extractYear(b) : extractYear(b) - extractYear(a)
     );
 
-  // Sorted conference papers
-  const sortedConferences = [...publicationsData]
-    .filter((paper) => paper.type === 'conference')
+  const journalsWithoutYear = publicationsData.filter(
+    (paper) => paper.type === "journal" && extractYear(paper) === 0
+  );
+
+  const conferencesWithYear = publicationsData
+    .filter((paper) => paper.type === "conference" && extractYear(paper) > 0)
     .sort((a, b) =>
-      conferenceAsc ? extractYear(a) - extractYear(b) : extractYear(b) - extractYear(a)
+      conferenceAsc
+        ? extractYear(a) - extractYear(b)
+        : extractYear(b) - extractYear(a)
     );
+
+  const conferencesWithoutYear = publicationsData.filter(
+    (paper) => paper.type === "conference" && extractYear(paper) === 0
+  );
 
   return (
     <div className="space-y-10">
       <h2 className="text-3xl font-bold tracking-tight">Publications</h2>
 
-      {/* Journal Papers Section */}
+      {/* Journal Papers */}
       <section>
         <div className="flex justify-between items-center mb-4">
           <h3 className="text-2xl font-semibold">Journal Papers</h3>
@@ -41,27 +50,25 @@ export default function Publications() {
             onClick={() => setJournalAsc(!journalAsc)}
             className="text-sm px-3 py-1 border rounded hover:bg-gray-100"
           >
-            Sort Year: {journalAsc ? 'Ascending ↑' : 'Descending ↓'}
+            Sort Year: {journalAsc ? "Ascending ↑" : "Descending ↓"}
           </button>
         </div>
-        <ul className="list-disc pl-6 space-y-2">
-          {sortedJournals.map((paper) => (
-            <li key={paper.id} className="text-base">
-              <strong>{paper.title}</strong> — {paper.year}
-              {paper.doi && (
-                <>
-                  {' '}
-                  [<a href={paper.doi} target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">
-                    DOI
-                  </a>]
-                </>
-              )}
-            </li>
-          ))}
-        </ul>
+        {journalsWithYear.map((paper) => (
+          <PublicationCard key={paper.id} paper={paper} />
+        ))}
+        {journalsWithoutYear.length > 0 && (
+          <>
+            <h4 className="text-xl font-semibold mt-6">
+              Journal Papers Without Year
+            </h4>
+            {journalsWithoutYear.map((paper) => (
+              <PublicationCard key={paper.id} paper={paper} />
+            ))}
+          </>
+        )}
       </section>
 
-      {/* Conference Papers Section */}
+      {/* Conference Papers */}
       <section>
         <div className="flex justify-between items-center mb-4 mt-10">
           <h3 className="text-2xl font-semibold">Conference Papers</h3>
@@ -69,35 +76,40 @@ export default function Publications() {
             onClick={() => setConferenceAsc(!conferenceAsc)}
             className="text-sm px-3 py-1 border rounded hover:bg-gray-100"
           >
-            Sort Year: {conferenceAsc ? 'Ascending ↑' : 'Descending ↓'}
+            Sort Year: {conferenceAsc ? "Ascending ↑" : "Descending ↓"}
           </button>
         </div>
-        <ul className="list-disc pl-6 space-y-2">
-          {sortedConferences.map((paper) => (
-            <li key={paper.id} className="text-base">
-              <strong>{paper.title}</strong> — {paper.year}
-              {paper.doi && (
-                <>
-                  {' '}
-                  [<a href={paper.doi} target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">
-                    DOI
-                  </a>]
-                </>
-              )}
-            </li>
-          ))}
-        </ul>
+        {conferencesWithYear.map((paper) => (
+          <PublicationCard key={paper.id} paper={paper} />
+        ))}
+        {conferencesWithoutYear.length > 0 && (
+          <>
+            <h4 className="text-xl font-semibold mt-6">
+              Conference Papers Without Year
+            </h4>
+            {conferencesWithoutYear.map((paper) => (
+              <PublicationCard key={paper.id} paper={paper} />
+            ))}
+          </>
+        )}
       </section>
 
-      {/* Pending / Under Review Section */}
+      {/* Pending Publications */}
       <section>
-        <h2 className="text-3xl font-bold tracking-tight mt-10">Publications Under Review</h2>
+        <h2 className="text-3xl font-bold tracking-tight mt-10">
+          Publications Under Review
+        </h2>
         <ul className="list-disc pl-6 space-y-2 mt-4">
-          {PendingPublicationData.map((paper: { id: string; title: string; journal?: string; status?: string }) => (
+          {PendingPublicationData.map((paper) => (
             <li key={paper.id} className="text-base">
               <strong>{paper.title}</strong>
               {paper.journal && <> — <em>{paper.journal}</em></>}
-              {paper.status && <> [<span className="italic">{paper.status}</span>]</>}
+              {paper.status && (
+                <>
+                  {' '}
+                  [<span className="italic">{paper.status}</span>]
+                </>
+              )}
             </li>
           ))}
         </ul>
