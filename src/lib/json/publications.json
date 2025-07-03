@@ -144,20 +144,20 @@
     "title": "Predictive Analysis of Bangladeshi Students' Academic Performances Using Ensemble Machine Learning with Explainable AI Technique",
     "conference": "27th International Conference on Computer and Information Technology (ICCIT), Accepted ,Confereence Rank : Core  C",
     "year": "Publisher : IEEE",
-    "doi": "Accepted, not yet available online",
+    "doi": "10.1109/ICCIT64611.2024.11021990",
     "citation": "A. A. Maruf, R. A. Rumey, R. I. Sony, and Z. Aung",
     "abstract": "This paper analyzes factors influencing Bangladeshi students' academic performances using machine learning and explainable AI techniques, offering insights into data-driven educational improvements.",
-    "download_paper": ""
+    "download_paper": "https://ieeexplore.ieee.org/abstract/document/11021990"
   },
    {
     "id": "16",
     "title": "Leveraging Gene Expression Data and Explainable Machine Learning for Enhanced Early Detection of Type 2 Diabetes",
     "conference": "The 3rd International Conference on Computing Advancements (ICCA), Accepted",
     "year": "Publisher :ACM ",
-    "doi": "Accepted, not yet available online",
+    "doi": "https://doi.org/10.1145/3723178.3723228",
     "citation": "A. L. Roy, M. K. Siam, N. Noor, S. Jahan, and A. Al.Maruf",
     "abstract": "This paper explores the use of gene expression data and explainable machine learning techniques for the early detection of type 2 diabetes, highlighting its potential to improve healthcare outcomes.",
-    "download_paper": ""
+    "download_paper": "https://dl.acm.org/doi/full/10.1145/3723178.3723228"
   },
   {
     "id": "17",
@@ -174,10 +174,10 @@
     "title": "A Novel Weighted Ensemble Strategy Using Transfer Learning for Enhanced Cervical Cancer Classification",
     "conference": "The 3rd International Conference on Computing Advancements (ICCA), Accepted",
     "year": "Publisher :ACM ",
-    "doi": "Accepted, not yet available online",
+    "doi": "https://doi.org/10.1145/3723178.3723187",
     "citation": "S. Sahajuddin, A.-A. Ahmed, A. Al Maruf, and F. Khanam",
     "abstract": "This study proposes a novel weighted ensemble strategy incorporating transfer learning to improve cervical cancer classification accuracy, showcasing advancements in medical AI applications.",
-    "download_paper": ""
+    "download_paper": "https://dl.acm.org/doi/full/10.1145/3723178.3723187"
   },
     {
     "id": "19",
