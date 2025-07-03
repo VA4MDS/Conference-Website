@@ -1,3 +1,5 @@
+'use client';
+
 import { useState } from 'react';
 import publicationsData from '@/lib/json/publications.json';
 import PendingPublicationData from '@/lib/json/pending-published.json';
@@ -49,7 +51,7 @@ export default function Publications() {
               {paper.doi && (
                 <>
                   {' '}
-                  [<a href={paper.doi} target="_blank" className="text-blue-600 underline">
+                  [<a href={paper.doi} target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">
                     DOI
                   </a>]
                 </>
@@ -77,7 +79,7 @@ export default function Publications() {
               {paper.doi && (
                 <>
                   {' '}
-                  [<a href={paper.doi} target="_blank" className="text-blue-600 underline">
+                  [<a href={paper.doi} target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">
                     DOI
                   </a>]
                 </>
@@ -91,7 +93,7 @@ export default function Publications() {
       <section>
         <h2 className="text-3xl font-bold tracking-tight mt-10">Publications Under Review</h2>
         <ul className="list-disc pl-6 space-y-2 mt-4">
-          {PendingPublicationData.map((paper) => (
+          {PendingPublicationData.map((paper: { id: string; title: string; journal?: string; status?: string }) => (
             <li key={paper.id} className="text-base">
               <strong>{paper.title}</strong>
               {paper.journal && <> — <em>{paper.journal}</em></>}
