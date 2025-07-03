@@ -1,24 +1,26 @@
-'use client';
-
 import { useState } from 'react';
 import publicationsData from '@/lib/json/publications.json';
 import PendingPublicationData from '@/lib/json/pending-published.json';
 
 export default function Publications() {
+  // Extract 4-digit year from the "year" string
   const extractYear = (entry: any) => {
-    const match = entry.year.trim().match(/\d{4}/);
+    const match = entry.year?.trim().match(/\d{4}/);
     return match ? parseInt(match[0]) : 0;
   };
 
+  // Sort toggles
   const [journalAsc, setJournalAsc] = useState(false);
   const [conferenceAsc, setConferenceAsc] = useState(false);
 
+  // Sorted journal papers
   const sortedJournals = [...publicationsData]
     .filter((paper) => paper.type === 'journal')
     .sort((a, b) =>
       journalAsc ? extractYear(a) - extractYear(b) : extractYear(b) - extractYear(a)
     );
 
+  // Sorted conference papers
   const sortedConferences = [...publicationsData]
     .filter((paper) => paper.type === 'conference')
     .sort((a, b) =>
@@ -85,13 +87,15 @@ export default function Publications() {
         </ul>
       </section>
 
-      {/* Pending Publications Section */}
+      {/* Pending / Under Review Section */}
       <section>
         <h2 className="text-3xl font-bold tracking-tight mt-10">Publications Under Review</h2>
         <ul className="list-disc pl-6 space-y-2 mt-4">
           {PendingPublicationData.map((paper) => (
             <li key={paper.id} className="text-base">
-              <strong>{paper.title}</strong> — {paper.year}
+              <strong>{paper.title}</strong>
+              {paper.journal && <> — <em>{paper.journal}</em></>}
+              {paper.status && <> [<span className="italic">{paper.status}</span>]</>}
             </li>
           ))}
         </ul>
