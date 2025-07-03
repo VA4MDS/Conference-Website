@@ -184,10 +184,21 @@
     "title": "TransembleNet: Enhancing Species and Vector Mosquito Classification through Transfer Learning Base Ensemble Model",
     "conference": "PLOS ONE",
     "year": "Year: 2025 ,Scopus : Q1, Impact factor: 2.9 ,H-index: 435",
-    "doi": "Not available",
-    "citation": "not yet",
+    "doi": "https://doi.org/10.1371/journal.pone.0322171",
+    "citation": "Al Maruf, Abdullah and Mahmudul Haque, Md and Ara Rumy, Rownuk and Jahan Puspo, Jasmin and Aung, Zeyar",
     "abstract": "no yet",
-    "download_paper": "Not yet"
-  }
+    "download_paper": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0322171"
+  },
+  {
+  "id": "20",
+  "title": "Fostering trust and interpretability in skin cancer classification: a hybrid framework of deep learning and machine learning with explainable AI",
+  "conference": "Journal of Ambient Intelligence and Humanized Computing",
+  "year": "Year: 2025 ,Scopus : Q1, Impact factor: 7.104 ,H-index: 86",
+  "doi": "https://doi.org/10.1007/s12652-025-04984-2",
+  "citation": "Roy, Aurora Lithe and Al Maruf, Abdullah and Sony, Rayhanul Islam and Roy, Arghya Pranto and Prova, Nuzhat Noor Islam and Aung, Zeyar",
+  "abstract": "no yet",
+  "download_paper": "https://link.springer.com/article/10.1007/s12652-025-04984-2"
+}
+
 
 ]
