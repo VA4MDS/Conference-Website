@@ -1,13 +1,13 @@
-import Link from 'next/link';
-import { Card } from '../ui/card';
-import { Download } from 'lucide-react';
-import { Button } from '../ui/button';
+import Link from "next/link";
+import { Card } from "../ui/card";
+import { Download } from "lucide-react";
+import { Button } from "../ui/button";
 
 type PaperType = {
   id: string;
   title: string;
   conference: string;
-  type: 'journal' | 'conference';
+  type: "journal" | "conference";
   year: string;
   doi: string;
   citation: string;
@@ -42,7 +42,7 @@ export default function PublicationCard({ paper }: PaperProps) {
         <div className="space-y-2 mt-2">
           <p className="text-sm text-muted-foreground">
             <strong className="text-blue-700 mr-1">
-              {type === 'journal' ? 'Journal Paper' : 'Conference Paper'}
+              {type === "journal" ? "Journal Paper" : "Conference Paper"}
             </strong>
             <span
               dangerouslySetInnerHTML={{
@@ -60,7 +60,7 @@ export default function PublicationCard({ paper }: PaperProps) {
           />
         </div>
         <div className="mt-4 flex flex-wrap gap-4 items-center">
-          {download_paper && download_paper !== 'Not yet' && (
+          {download_paper && download_paper !== "Not yet" && (
             <Link href={download_paper} target="_blank" rel="noopener noreferrer">
               <Button variant="outline" size="sm" className="text-blue-700 underline">
                 <Download className="mr-2 h-4 w-4" />
@@ -68,7 +68,7 @@ export default function PublicationCard({ paper }: PaperProps) {
               </Button>
             </Link>
           )}
-          {doi && doi !== 'Not available' && (
+          {doi && doi !== "Not available" && (
             <p
               className="text-sm text-blue-600"
               dangerouslySetInnerHTML={{ __html: `DOI: ${highlightKeywords(doi)}` }}
