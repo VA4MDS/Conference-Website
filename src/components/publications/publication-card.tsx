@@ -12,7 +12,7 @@ type PaperType = {
   doi: string;
   citation: string;
   download_paper: string;
-  metadata?: string; // optional metadata field
+  metadata?: string;
 };
 
 type PaperProps = {
@@ -52,9 +52,10 @@ export default function PublicationCard({ paper }: PaperProps) {
             />
           </p>
           {metadata && (
-            <p className="italic text-sm text-gray-600 mt-1">
-              {metadata}
-            </p>
+            <p
+              className="italic text-sm text-gray-600 mt-1"
+              dangerouslySetInnerHTML={{ __html: highlightKeywords(metadata) }}
+            />
           )}
           <p
             className="text-gray-600"
@@ -75,10 +76,12 @@ export default function PublicationCard({ paper }: PaperProps) {
             </Link>
           )}
           {doi && doi !== "Not available" && (
-            <p
-              className="text-sm text-blue-600"
-              dangerouslySetInnerHTML={{ __html: `DOI: ${highlightKeywords(doi)}` }}
-            />
+            <p className="text-sm text-blue-600">
+              DOI:{" "}
+              <Link href={doi} target="_blank" rel="noopener noreferrer" className="underline">
+                <span dangerouslySetInnerHTML={{ __html: highlightKeywords(doi) }} />
+              </Link>
+            </p>
           )}
         </div>
       </div>
