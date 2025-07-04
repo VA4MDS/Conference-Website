@@ -3,7 +3,8 @@
 import { useState } from "react";
 import publicationsData from "@/lib/json/publications.json";
 import PendingPublicationData from "@/lib/json/pending-published.json";
-import PublicationCard from "../publication"; // adjust path as needed
+import PublicationCard from "./publication-card";
+
 
 export default function Publications() {
   // parse year as number or return 0 if invalid or missing
