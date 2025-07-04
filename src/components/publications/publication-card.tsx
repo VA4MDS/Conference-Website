@@ -3,17 +3,16 @@ import { Card } from "../ui/card";
 import { Download } from "lucide-react";
 import { Button } from "../ui/button";
 
-// Updated type with optional metadata field
 type PaperType = {
   id: string;
   title: string;
-  conference: string; // You can rename to 'venue' for better clarity
+  conference: string;
   type: "journal" | "conference";
   year: string;
-  metadata?: string; // ✅ New optional metadata field
   doi: string;
   citation: string;
   download_paper: string;
+  metadata?: string; // optional metadata field
 };
 
 type PaperProps = {
@@ -21,7 +20,7 @@ type PaperProps = {
 };
 
 export default function PublicationCard({ paper }: PaperProps) {
-  const { title, conference, year, metadata, doi, citation, download_paper, type } = paper;
+  const { title, conference, year, doi, citation, download_paper, type, metadata } = paper;
 
   const highlightKeywords = (text: string) =>
     text
@@ -29,7 +28,7 @@ export default function PublicationCard({ paper }: PaperProps) {
         /(Maruf,\s*A\.A|A\.?\s*Al\s*Maruf|A\.?\s*A\.?\s*Maruf|A\.?\s*Al\.?Maruf|Maruf,\s*Abdullah\s*Al|Al\s*Maruf,\s*Abdullah|Al\s*Maruf,\s*A)/gi,
         `<strong>$1</strong>`
       )
-      .replace(/(Scopus\s*:\s*Q[1-4])/gi, `<strong class="text-green-600">$1</strong>`)
+      .replace(/(Scopus\s*:\s*Q[1-3])/gi, `<strong class="text-green-600">$1</strong>`)
       .replace(/(Conference\s*Rank\s*:\s*(Core\s+)?[ABC])/gi, `<strong class="text-green-600">$1</strong>`)
       .replace(/(Impact factor\s*:\s*\d+(\.\d+)?)/gi, `<strong class="text-green-600">$1</strong>`)
       .replace(/(H-index\s*:\s*\d+)/gi, `<strong class="text-green-600">$1</strong>`);
@@ -37,13 +36,10 @@ export default function PublicationCard({ paper }: PaperProps) {
   return (
     <Card className="overflow-hidden transition-colors hover:bg-muted/50">
       <div className="p-6">
-        {/* Title */}
         <h3
           className="font-semibold tracking-tight hover:text-primary"
           dangerouslySetInnerHTML={{ __html: highlightKeywords(title) }}
         />
-
-        {/* Info Section */}
         <div className="space-y-2 mt-2">
           <p className="text-sm text-muted-foreground">
             <strong className="text-blue-700 mr-1">
@@ -55,16 +51,11 @@ export default function PublicationCard({ paper }: PaperProps) {
               }}
             />
           </p>
-
-          {/* Optional Metadata Display */}
           {metadata && (
-            <p
-              className="text-sm text-green-700"
-              dangerouslySetInnerHTML={{ __html: highlightKeywords(metadata) }}
-            />
+            <p className="italic text-sm text-gray-600 mt-1">
+              {metadata}
+            </p>
           )}
-
-          {/* Citation */}
           <p
             className="text-gray-600"
             dangerouslySetInnerHTML={{
@@ -74,8 +65,6 @@ export default function PublicationCard({ paper }: PaperProps) {
             }}
           />
         </div>
-
-        {/* Download & DOI Links */}
         <div className="mt-4 flex flex-wrap gap-4 items-center">
           {download_paper && download_paper !== "Not yet" && (
             <Link href={download_paper} target="_blank" rel="noopener noreferrer">
