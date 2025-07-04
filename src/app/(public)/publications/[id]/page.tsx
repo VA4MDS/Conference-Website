@@ -10,12 +10,25 @@ type SinglePublicationProps = {
 };
 
 export default function SinglePublication({ params }: SinglePublicationProps) {
-  const publication = publicationsData.find(
+  const publication:
+    | {
+        id: string;
+        title: string;
+        conference: string;
+        year: string;
+        metadata: string;
+        doi: string;
+        citation: string;
+        download_paper: string;
+        type: string;
+        abstract?: string;
+      }
+    | undefined = publicationsData.find(
     (publication) => publication.id === params.id
   );
 
   return (
-    <div className='space-y-4 max-w-screen-xl mx-auto'>
+    <div className='space-y-4 max-w-screen-xl mx-auto bg-red-500'>
       <h1 className='text-2xl font-bold'>{publication?.title || ''}</h1>
       <p className='text-gray-800'>{publication?.abstract}</p>
       <p className='text-muted-foreground'>
