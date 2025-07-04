@@ -3,14 +3,14 @@
 import { useState } from "react";
 import publicationsData from "@/lib/json/publications.json";
 import PendingPublicationData from "@/lib/json/pending-published.json";
-import PublicationCard from "../publication"; // Adjust import path as needed
+import PublicationCard from "../publication"; // adjust path as needed
 
 export default function Publications() {
+  // parse year as number or return 0 if invalid or missing
   const extractYear = (entry: any) => {
     if (!entry.year) return 0;
-    const match = entry.year.match(/\b(19|20)\d{2}\b/);
-    if (match) return parseInt(match[0]);
-    return 0;
+    const y = parseInt(entry.year);
+    return isNaN(y) ? 0 : y;
   };
 
   const [journalAsc, setJournalAsc] = useState(false);
