@@ -7,11 +7,6 @@ import HeroCarousel from '@/components/hero-carousel/HeroCarousel';
 
 const inter = Inter({ subsets: ['latin'] });
 
-export const metadata: Metadata = {
-  title: 'Abdullah Al Maruf | Python instructor and research mentor',
-  description: 'My Personal Portfolio Website',
-};
-
 export default function RootLayout({
   children,
 }: Readonly<{
