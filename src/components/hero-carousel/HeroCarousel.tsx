@@ -40,7 +40,7 @@ export default function HeroCarousel() {
                 priority={idx === 0}
               />
               <div className='absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-40 text-white p-6 text-center'>
-                <h2 className='text-xl md:text-3xl font-bold mb-2 whitespace-pre-line leading-loose'>
+                <h2 className='text-xl md:text-3xl font-bold mb-2 whitespace-pre-line leading-normal md:leading-loose'>
                   {item.text}
                 </h2>
               </div>

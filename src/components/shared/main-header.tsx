@@ -5,15 +5,18 @@ import Link from 'next/link';
 import { Menu, X } from 'lucide-react';
 import { Button } from '../ui/button';
 import { RecursiveDropdown } from '../ui/recursive-dropdown';
-// import CV from '@/lib/abfullah-al-maruf-cv.pdf';
 
 const navLinks = [
   { name: 'Home', href: '/' },
   {
     name: 'Call For Papers',
+    href: '/call-for-papers',
+  },
+  {
+    name: 'Organization',
     children: [
       {
-        name: 'Organization',
+        name: 'Organizing Committee',
         href: '/committee',
       },
       {
@@ -42,10 +45,10 @@ export default function MainHeader() {
 
   return (
     <header className='sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60'>
-      <nav className='container flex h-14 items-center justify-between'>
-        <Link href='/' className='flex items-center space-x-2'>
+      <nav className='container flex h-14 items-center justify-center'>
+        {/* <Link href='/' className='flex items-center space-x-2'>
           <span className='font-bold'>Home</span>
-        </Link>
+        </Link> */}
 
         {/* Desktop Menu */}
         <div className='hidden md:flex gap-6 items-center'>
